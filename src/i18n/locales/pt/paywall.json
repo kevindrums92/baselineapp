@@ -1,0 +1,67 @@
+{
+  "title": "Desbloqueie o BaselineApp Pro",
+  "subtitle": {
+    "generic": "Aproveite uma experiencia sem anuncios com entradas IA ilimitadas",
+    "onboarding": "Comece com 7 dias gratis sem anuncios e com IA ilimitada",
+    "settings": "Personalize sua experiencia ao maximo",
+    "upgrade_prompt": "Remova os anuncios e desbloqueie entradas IA ilimitadas",
+    "batch_entry_limit": "Desbloqueie entradas IA ilimitadas e remova os anuncios"
+  },
+  "benefits": {
+    "adFree": "Experiencia 100% livre de anuncios",
+    "aiBatchEntry": "Entradas IA ilimitadas (texto, voz, imagem)"
+  },
+  "plans": {
+    "monthly": "Mensal",
+    "annual": "Anual",
+    "lifetime": "Vitalicio",
+    "perMonth": "/mes",
+    "perYear": "/ano",
+    "oneTime": "Pagamento unico"
+  },
+  "badges": {
+    "bestValue": "Melhor Valor"
+  },
+  "savings": "Economize {{percent}}%",
+  "equivalentMonthly": "equivale a ${{price}}/mes",
+  "cta": {
+    "startTrial": "Iniciar teste gratuito de 7 dias",
+    "subscribe": "Assinar",
+    "restore": "Restaurar compras"
+  },
+  "trial": {
+    "badge": "Teste gratuito",
+    "daysRemaining_one": "{{count}} dia restante de teste",
+    "daysRemaining_other": "{{count}} dias restantes de teste",
+    "expired": "Seu teste expirou"
+  },
+  "gate": {
+    "locked": "Funcao Pro",
+    "unlock": "Desbloquear"
+  },
+  "promoCode": {
+    "title": "Codigo Promocional",
+    "placeholder": "Insira seu codigo",
+    "redeem": "Resgatar",
+    "redeeming": "Resgatando...",
+    "success": "Codigo resgatado com sucesso. Voce agora e Pro!",
+    "link": "Tenho um codigo promocional",
+    "error": {
+      "invalid": "Codigo invalido",
+      "expired": "Este codigo expirou",
+      "used": "Este codigo ja foi utilizado",
+      "alreadyRedeemed": "Voce ja resgatou este codigo",
+      "alreadyPro": "Voce ja tem uma assinatura Pro vitalicia",
+      "rateLimit": "Muitas tentativas. Aguarde um momento",
+      "noSession": "Voce precisa fazer login para resgatar um codigo",
+      "generic": "Falha ao resgatar. Tente novamente"
+    }
+  },
+  "legal": {
+    "text": "Ao continuar, voce concorda com nossos",
+    "terms": "Termos de Servico",
+    "and": "e",
+    "privacy": "Politica de Privacidade",
+    "autoRenew": "O pagamento sera cobrado na sua conta Apple ID ao confirmar a compra. A assinatura e renovada automaticamente, a menos que seja cancelada antes do final do periodo atual. Voce pode gerenciar e cancelar suas assinaturas nas configuracoes da sua conta da App Store."
+  }
+}

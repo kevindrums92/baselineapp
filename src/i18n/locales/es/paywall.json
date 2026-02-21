@@ -1,0 +1,67 @@
+{
+  "title": "Desbloquea BaselineApp Pro",
+  "subtitle": {
+    "generic": "Disfruta una experiencia sin anuncios y registros con IA ilimitados",
+    "onboarding": "Comienza con 7 dias gratis sin anuncios y con IA ilimitada",
+    "settings": "Personaliza tu experiencia al maximo",
+    "upgrade_prompt": "Elimina los anuncios y desbloquea registros con IA ilimitados",
+    "batch_entry_limit": "Desbloquea registros con IA ilimitados y elimina los anuncios"
+  },
+  "benefits": {
+    "adFree": "Experiencia 100% libre de anuncios",
+    "aiBatchEntry": "Registros con IA ilimitados (texto, audio, imagen)"
+  },
+  "plans": {
+    "monthly": "Mensual",
+    "annual": "Anual",
+    "lifetime": "De por vida",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "oneTime": "Pago unico"
+  },
+  "badges": {
+    "bestValue": "Mejor Valor"
+  },
+  "savings": "Ahorra {{percent}}%",
+  "equivalentMonthly": "equivale a ${{price}}/mes",
+  "cta": {
+    "startTrial": "Iniciar prueba gratuita de 7 dias",
+    "subscribe": "Suscribirme",
+    "restore": "Restaurar compras"
+  },
+  "trial": {
+    "badge": "Prueba gratuita",
+    "daysRemaining_one": "{{count}} dia restante de prueba",
+    "daysRemaining_other": "{{count}} dias restantes de prueba",
+    "expired": "Tu prueba ha expirado"
+  },
+  "gate": {
+    "locked": "Funcion Pro",
+    "unlock": "Desbloquear"
+  },
+  "promoCode": {
+    "title": "Codigo Promocional",
+    "placeholder": "Ingresa tu codigo",
+    "redeem": "Canjear",
+    "redeeming": "Canjeando...",
+    "success": "Codigo canjeado exitosamente. Ya eres Pro!",
+    "link": "Tengo un codigo promocional",
+    "error": {
+      "invalid": "Codigo no valido",
+      "expired": "Este codigo ha expirado",
+      "used": "Este codigo ya fue utilizado",
+      "alreadyRedeemed": "Ya canjeaste este codigo",
+      "alreadyPro": "Ya tienes una suscripcion Pro de por vida",
+      "rateLimit": "Demasiados intentos. Espera un momento",
+      "noSession": "Debes iniciar sesion para canjear un codigo",
+      "generic": "Error al canjear. Intenta de nuevo"
+    }
+  },
+  "legal": {
+    "text": "Al continuar, aceptas nuestros",
+    "terms": "Terminos de Servicio",
+    "and": "y",
+    "privacy": "Politica de Privacidad",
+    "autoRenew": "El pago se cargara a tu cuenta de Apple ID al confirmar la compra. La suscripcion se renueva automaticamente a menos que la canceles antes del fin del periodo actual. Puedes gestionar y cancelar tus suscripciones en los Ajustes de tu cuenta del App Store."
+  }
+}

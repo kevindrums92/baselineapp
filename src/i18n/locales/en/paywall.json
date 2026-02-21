@@ -1,0 +1,67 @@
+{
+  "title": "Unlock BaselineApp Pro",
+  "subtitle": {
+    "generic": "Enjoy an ad-free experience with unlimited AI-powered entries",
+    "onboarding": "Start with 7 free days of ad-free and unlimited AI",
+    "settings": "Fully customize your experience",
+    "upgrade_prompt": "Remove ads and unlock unlimited AI-powered entries",
+    "batch_entry_limit": "Unlock unlimited AI-powered entries and remove ads"
+  },
+  "benefits": {
+    "adFree": "100% ad-free experience",
+    "aiBatchEntry": "Unlimited AI-powered entries (text, voice, image)"
+  },
+  "plans": {
+    "monthly": "Monthly",
+    "annual": "Annual",
+    "lifetime": "Lifetime",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "oneTime": "One-time payment"
+  },
+  "badges": {
+    "bestValue": "Best Value"
+  },
+  "savings": "Save {{percent}}%",
+  "equivalentMonthly": "equals ${{price}}/month",
+  "cta": {
+    "startTrial": "Start 7-day free trial",
+    "subscribe": "Subscribe",
+    "restore": "Restore purchases"
+  },
+  "trial": {
+    "badge": "Free trial",
+    "daysRemaining_one": "{{count}} trial day remaining",
+    "daysRemaining_other": "{{count}} trial days remaining",
+    "expired": "Your trial has expired"
+  },
+  "gate": {
+    "locked": "Pro Feature",
+    "unlock": "Unlock"
+  },
+  "promoCode": {
+    "title": "Promo Code",
+    "placeholder": "Enter your code",
+    "redeem": "Redeem",
+    "redeeming": "Redeeming...",
+    "success": "Code redeemed successfully. You are now Pro!",
+    "link": "I have a promo code",
+    "error": {
+      "invalid": "Invalid code",
+      "expired": "This code has expired",
+      "used": "This code has already been used",
+      "alreadyRedeemed": "You already redeemed this code",
+      "alreadyPro": "You already have a lifetime Pro subscription",
+      "rateLimit": "Too many attempts. Please wait a moment",
+      "noSession": "You must sign in to redeem a code",
+      "generic": "Failed to redeem. Please try again"
+    }
+  },
+  "legal": {
+    "text": "By continuing, you agree to our",
+    "terms": "Terms of Service",
+    "and": "and",
+    "privacy": "Privacy Policy",
+    "autoRenew": "Payment will be charged to your Apple ID account at confirmation of purchase. Subscription automatically renews unless canceled before the end of the current period. You can manage and cancel your subscriptions in your App Store account settings."
+  }
+}

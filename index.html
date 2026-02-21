@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
+
+    <title>BaselineApp</title>
+    <meta name="description" content="Your baseline app template." />
+
+    <meta name="theme-color" content="#0d9488" />
+
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <link rel="alternate icon" type="image/png" sizes="32x32" href="/icons/icon-32.png" />
+    <link rel="alternate icon" type="image/png" sizes="16x16" href="/icons/icon-16.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/icons/icon-180.png" />
+    <link rel="mask-icon" href="/safari-pinned-tab.svg" color="#0d9488" />
+
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-title" content="BaselineApp" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="mobile-web-app-capable" content="yes" />
+
+    <!-- Prevent theme flicker - must run before any rendering -->
+    <script>
+      (function() {
+        var stored = localStorage.getItem('app_theme');
+        var theme = stored || 'system';
+        var resolved = theme;
+        if (theme === 'system') {
+          resolved = window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light';
+        }
+        document.documentElement.classList.add(resolved);
+        if (resolved === 'dark') {
+          var meta = document.querySelector('meta[name="theme-color"]');
+          if (meta) meta.setAttribute('content', '#030712');
+        }
+      })();
+    </script>
+
+    <style>
+      #app-splash { position: fixed; inset: 0; background: #0d9488; z-index: 9999; display: flex; flex-direction: column; align-items: center; justify-content: center; color: white; transition: opacity 0.4s ease; }
+      .splash-title { font-family: system-ui, -apple-system, sans-serif; font-size: 24px; font-weight: 700; letter-spacing: -0.025em; margin: 0; }
+      .splash-loader { width: 24px; height: 24px; border: 3px solid rgba(255,255,255,0.3); border-radius: 50%; border-top-color: white; animation: spin 1s linear infinite; margin-top: 32px; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+      body { margin: 0; background: #0d9488; }
+      html.dark #app-splash { background: #030712; }
+      html.dark body { background: #030712; }
+    </style>
+  </head>
+  <body>
+    <div id="app-splash">
+      <h1 class="splash-title">BaselineApp</h1>
+      <div class="splash-loader"></div>
+    </div>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>

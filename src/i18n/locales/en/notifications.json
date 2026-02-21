@@ -1,0 +1,46 @@
+{
+  "title": "Notifications",
+  "unavailable": {
+    "title": "Not available",
+    "description": "Push notifications are only available in the native app for iOS and Android."
+  },
+  "permissionRequest": {
+    "title": "Enable notifications",
+    "description": "Get reminders to log your spending, budget alerts, and a daily summary of your finances.",
+    "button": "Enable notifications",
+    "buttonLoading": "Enabling...",
+    "permissionDenied": "If you denied permission, you can enable it in your device settings."
+  },
+  "notifications": {
+    "scheduledTransactions": {
+      "title": "Scheduled transactions",
+      "description": "Alert 1 day before each pending transaction"
+    },
+    "dailyReminder": {
+      "title": "Daily reminder",
+      "description": "Only if you haven't logged expenses today",
+      "timeLabel": "Reminder time:"
+    },
+    "dailySummary": {
+      "title": "Daily summary",
+      "description": "Summary of your transactions for the day",
+      "timeLabel": "Summary time:"
+    },
+    "quietHours": {
+      "title": "Quiet hours",
+      "description": "Don't receive notifications during this time",
+      "startLabel": "From:",
+      "endLabel": "To:"
+    }
+  },
+  "saving": "Saving...",
+  "info": "Notifications are sent according to your device's time zone.",
+  "disableAll": {
+    "button": "Disable all notifications",
+    "confirmTitle": "Disable notifications?",
+    "confirmMessage": "All your settings will be deleted and you'll need to configure them again if you decide to reactivate them.",
+    "cancel": "Cancel",
+    "confirm": "Disable",
+    "disabling": "Disabling..."
+  }
+}

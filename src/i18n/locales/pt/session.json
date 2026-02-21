@@ -1,0 +1,13 @@
+{
+  "expired": {
+    "title": "Sua sessão expirou",
+    "subtitle": "Faça login novamente para sincronizar seus dados com sua conta.",
+    "emailHint": "Última conta: {{email}}",
+    "googleButton": "Continuar com Google",
+    "appleButton": "Continuar com Apple",
+    "guestButton": "Continuar como convidado",
+    "guestWarning": "Seus dados serão salvos localmente, mas não estarão vinculados à sua conta.",
+    "error": "Erro ao reconectar",
+    "connecting": "Conectando..."
+  }
+}

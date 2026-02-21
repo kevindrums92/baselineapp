@@ -1,0 +1,90 @@
+{
+  "buttons": {
+    "save": "Save",
+    "cancel": "Cancel",
+    "delete": "Delete",
+    "edit": "Edit",
+    "continue": "Continue",
+    "back": "Back",
+    "confirm": "Confirm",
+    "close": "Close",
+    "ok": "OK",
+    "yes": "Yes",
+    "no": "No",
+    "add": "Add",
+    "create": "Create",
+    "update": "Update",
+    "restore": "Restore",
+    "download": "Download",
+    "upload": "Upload",
+    "export": "Export",
+    "import": "Import",
+    "skip": "Skip"
+  },
+  "date": {
+    "today": "Today",
+    "yesterday": "Yesterday",
+    "tomorrow": "Tomorrow",
+    "thisWeek": "This week",
+    "thisMonth": "This month",
+    "lastMonth": "Last month",
+    "month": "Month",
+    "previousMonth": "Previous month",
+    "nextMonth": "Next month",
+    "goToCurrentMonth": "Go to current month"
+  },
+  "datePicker": {
+    "selectDate": "Select date",
+    "close": "Close"
+  },
+  "navigation": {
+    "home": "Home",
+    "plan": "Plan",
+    "stats": "Stats",
+    "settings": "Settings"
+  },
+  "settings": {
+    "title": "Settings",
+    "subtitle": "General & Account"
+  },
+  "errors": {
+    "generic": "An unexpected error occurred",
+    "networkError": "Connection error",
+    "notFound": "Not found",
+    "unauthorized": "Unauthorized",
+    "forbidden": "Access denied"
+  },
+  "loading": "Loading...",
+  "noData": "No data available",
+  "search": "Search...",
+  "filter": "Filter",
+  "cancel": "Cancel",
+  "save": "Save",
+  "delete": "Delete",
+  "edit": "Edit",
+  "confirm": "Confirm",
+  "ok": "OK",
+  "defaultCategories": {
+    "mercado": "Groceries",
+    "restaurantes": "Restaurants",
+    "servicios": "Utilities",
+    "arriendo": "Rent",
+    "suscripciones": "Subscriptions",
+    "ropa": "Clothing",
+    "educacion": "Education",
+    "entretenimiento": "Entertainment",
+    "hijos": "Children",
+    "salud": "Health",
+    "transporte": "Transport",
+    "gasolina": "Fuel",
+    "otrosGastos": "Other Expenses",
+    "salario": "Salary",
+    "bonos": "Bonuses",
+    "freelance": "Freelance",
+    "beneficios": "Benefits",
+    "inversiones": "Investments",
+    "arriendoRecibido": "Rent Received",
+    "propinas": "Tips",
+    "otrosIngresos": "Other Income"
+  }
+}

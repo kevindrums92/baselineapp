@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "appearance": "Appearance",
+    "expenseManagement": "Expense Management",
+    "dataSecurity": "Data & Security",
+    "legal": "Legal"
+  },
+  "menu": {
+    "categories": "Categories",
+    "categoriesSubtitle": "Manage categories",
+    "scheduled": "Scheduled",
+    "scheduledSubtitle": "Automatic transactions",
+    "backup": "Backup & Restore",
+    "backupSubtitle": "Backup and restore data",
+    "biometric": "Biometric Authentication",
+    "biometricEnabled": "Enabled ({{type}})",
+    "biometricDisabled": "Disabled",
+    "exportCSV": "Export CSV",
+    "exportCSVSubtitle": "Download data in CSV format",
+    "notifications": "Notifications",
+    "notificationsSubtitle": "Reminders and alerts"
+  },
+  "biometricLock": {
+    "unlockReason": "Unlock BaselineApp",
+    "enableReason": "Enable biometric authentication",
+    "title": "BaselineApp is locked",
+    "subtitle": "Use Face ID or your passcode to unlock",
+    "unlockButton": "Unlock"
+  },
+  "preferences": {
+    "title": "Preferences",
+    "language": {
+      "label": "Language",
+      "changed": "Language updated",
+      "cancel": "Cancel"
+    },
+    "theme": {
+      "label": "Theme",
+      "light": "Light",
+      "dark": "Dark",
+      "system": "System",
+      "changed": "Theme updated"
+    },
+    "currency": {
+      "label": "Currency",
+      "changed": "Currency updated",
+      "search": "Search currency...",
+      "noResults": "No currencies found",
+      "recommended": "Recommended for you"
+    }
+  },
+  "account": {
+    "guest": {
+      "sessionLabel": "Guest Session",
+      "title": "Create your account",
+      "subtitle": "Your data is safe, but not linked."
+    },
+    "syncStatus": {
+      "local": "Local Mode",
+      "offline": "Offline",
+      "syncing": "Syncing",
+      "synced": "Cloud Sync Active"
+    },
+    "trial": {
+      "daysRemaining_one": "{{count}} trial day",
+      "daysRemaining_other": "{{count}} trial days"
+    },
+    "delete": {
+      "title": "Delete Account",
+      "subtitle": "Permanently delete your account and all your data",
+      "buttonLabel": "Delete my account permanently",
+      "confirmTitle": "Delete your account?",
+      "confirmMessage": "This action is permanent and cannot be undone. The following will be deleted:",
+      "dataList": {
+        "transactions": "All your transactions and financial history",
+        "categories": "Custom categories and budgets",
+        "settings": "Preferences and settings",
+        "subscription": "Subscription information (you'll need to cancel separately in the App Store)"
+      },
+      "warning": "This action cannot be reversed",
+      "understanding": "I understand this action is permanent",
+      "cancelButton": "Cancel",
+      "deleteButton": "Delete My Account",
+      "deleting": "Deleting account...",
+      "successTitle": "Account Deleted",
+      "successMessage": "Your account and all your data have been permanently deleted.",
+      "errorTitle": "Error",
+      "errorMessage": "We couldn't delete your account. Please try again or contact support."
+    },
+    "deleteData": {
+      "buttonLabel": "Delete my data",
+      "confirmTitle": "Delete your data?",
+      "confirmMessage": "This action is permanent and cannot be undone. The following will be deleted:",
+      "deleteButton": "Delete My Data",
+      "successTitle": "Data Deleted",
+      "successMessage": "All your data has been permanently deleted from the server."
+    }
+  },
+  "login": "Log In",
+  "logout": "Log Out",
+  "loggingOut": "Logging out...",
+  "loginWithGoogle": "Continue with Google",
+  "noConnection": "No connection",
+  "loginBanner": {
+    "title": "Protect your finances",
+    "subtitle": "Sign in to back up your expenses to the cloud.",
+    "action": "Connect account"
+  },
+  "subscriptionCard": {
+    "guest": {
+      "title": "No Cloud Backup",
+      "subtitle": "Your data is only on this device. If you lose it or it gets damaged, you'll lose all your financial history.",
+      "cta": "Create Free Account"
+    },
+    "free": {
+      "title": "Take Your Finances to the Next Level",
+      "subtitle": "Remove ads and unlock unlimited AI-powered entries.",
+      "cta": "Discover Pro"
+    },
+    "pro": {
+      "title": "Pro Active",
+      "subtitle": "Cloud backup + ad-free experience + unlimited AI + all premium features.",
+      "status": "Everything is in order",
+      "cta": "Manage Subscription"
+    }
+  },
+  "export": {
+    "info": {
+      "title": "Export to CSV",
+      "description": "CSV files can be opened in Excel, Google Sheets and other spreadsheet applications."
+    },
+    "transactions": {
+      "title": "Transactions",
+      "description": "Export all movements"
+    },
+    "categories": {
+      "title": "Categories",
+      "description": "Export custom categories"
+    },
+    "budgets": {
+      "title": "Budgets",
+      "description": "Export spending limits"
+    },
+    "all": {
+      "title": "Everything",
+      "description": "Export transactions, categories and budgets"
+    },
+    "items": "items"
+  },
+  "legal": {
+    "lastUpdated": "Last updated",
+    "terms": {
+      "title": "Terms of Service"
+    },
+    "privacy": {
+      "title": "Privacy Policy"
+    }
+  },
+  "subscription": {
+    "title": "My Subscription",
+    "currentPlan": "Current Plan",
+    "plans": {
+      "free": "Free",
+      "monthly": "Pro Monthly",
+      "annual": "Pro Annual",
+      "lifetime": "Pro Lifetime"
+    },
+    "status": {
+      "active": "Active",
+      "inactive": "Inactive",
+      "trial": "Trial"
+    },
+    "trialDaysRemaining_one": "{{count}} trial day remaining",
+    "trialDaysRemaining_other": "{{count}} trial days remaining",
+    "trialEnds": "Trial ends",
+    "renews": "Renews",
+    "expires": "Expires",
+    "lifetimeAccess": "Lifetime access",
+    "perMonth": "/month",
+    "perYear": "/year",
+    "oneTimePayment": "one-time payment",
+    "freePlanIncludes": "Your free plan includes",
+    "freePlanFeature1": "Occasional ads to keep the app free",
+    "freePlanFeature2": "Limited features (upgrade to Pro to unlock everything)",
+    "upgradePlan": "Upgrade Your Plan",
+    "monthlyPlan": "Monthly Plan",
+    "flexibleMonthlyBilling": "Flexible monthly billing",
+    "annualPlan": "Annual Plan",
+    "savingsPerYear": "Save ${{amount}} per year",
+    "lifetimePlan": "Lifetime Plan",
+    "unlimitedLifetimeAccess": "Unlimited lifetime access",
+    "actions": "Actions",
+    "restorePurchases": "Restore Purchases",
+    "restorePurchasesSubtitle": "If you changed devices",
+    "restoring": "Restoring...",
+    "manageInAppStore": "Manage in App Store",
+    "manageInAppStoreSubtitle": "Cancel or modify subscription",
+    "messages": {
+      "purchaseError": "Unable to process purchase. Please try again.",
+      "purchaseRestored": "Purchases restored successfully!",
+      "noPurchasesFound": "No previous purchases found to restore.",
+      "restoreError": "Error restoring purchases. Please try again.",
+      "onlyMobile": "Restore purchases is only available in the mobile app.",
+      "manageOnlyMobile": "Manage subscription is only available in the mobile app."
+    },
+    "info": {
+      "note": "Note:",
+      "appleManagement": "Subscription changes and cancellations are managed through the Apple App Store. Cancellations take effect at the end of the current billing period."
+    },
+    "loginBanner": {
+      "title": "Protect your subscription",
+      "subtitle": "Create an account to keep your Pro subscription and data safe. If you change devices without an account, you could lose access.",
+      "cta": "Create Account"
+    }
+  }
+}

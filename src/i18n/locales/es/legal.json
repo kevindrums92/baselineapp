@@ -1,0 +1,158 @@
+{
+  "lastUpdated": "Última actualización",
+  "lastUpdatedDate": "1 de febrero de 2026",
+  "terms": {
+    "title": "Términos de Servicio",
+    "introduction": {
+      "title": "Introducción",
+      "content": "Bienvenido a BaselineApp. Al usar nuestra aplicación, aceptas estos términos de servicio. BaselineApp es una aplicación de gestión de finanzas personales diseñada para ayudarte a rastrear tus gastos, ingresos y presupuestos."
+    },
+    "service": {
+      "title": "Descripción del Servicio",
+      "content": "BaselineApp ofrece:",
+      "features": {
+        "transactions": "Seguimiento de transacciones (ingresos y gastos)",
+        "categories": "Gestión de categorías y presupuestos",
+        "stats": "Visualización de estadísticas financieras",
+        "sync": "Sincronización opcional en la nube",
+        "guest": "Modo invitado con almacenamiento local",
+        "backup": "Respaldo y exportación de datos"
+      }
+    },
+    "accounts": {
+      "title": "Cuentas de Usuario",
+      "content": "Puedes usar BaselineApp en dos modos:",
+      "guestMode": "Modo Invitado:",
+      "guestDescription": "Tus datos se almacenan localmente en tu dispositivo. No se requiere cuenta.",
+      "cloudMode": "Modo Cloud:",
+      "cloudDescription": "Al crear una cuenta, tus datos se sincronizan con nuestros servidores usando Supabase. Eres responsable de mantener la confidencialidad de tu cuenta."
+    },
+    "subscription": {
+      "title": "Suscripciones y Pagos",
+      "content": "BaselineApp ofrece una suscripción Pro opcional que desbloquea funciones premium. Los pagos se procesan de forma segura a través de RevenueCat y las tiendas de aplicaciones (App Store, Google Play). Las suscripciones se renuevan automáticamente a menos que las canceles antes de la fecha de renovación. Puedes gestionar tu suscripción desde la configuración de tu cuenta en la tienda de aplicaciones correspondiente."
+    },
+    "ownership": {
+      "title": "Propiedad de Datos",
+      "content": "Todos tus datos financieros son de tu propiedad. BaselineApp no comparte, vende ni utiliza tus datos para publicidad. Puedes exportar o eliminar tus datos en cualquier momento desde la configuración de la aplicación."
+    },
+    "use": {
+      "title": "Uso Aceptable",
+      "content": "Al usar BaselineApp, aceptas:",
+      "rules": {
+        "legal": "Usar la aplicación solo para fines legales y personales",
+        "noAccess": "No intentar acceder a datos de otros usuarios",
+        "noModify": "No modificar, copiar o distribuir la aplicación sin autorización",
+        "noDamage": "No usar la aplicación de manera que pueda dañar o interrumpir el servicio"
+      }
+    },
+    "limitations": {
+      "title": "Limitación de Responsabilidad",
+      "content": "BaselineApp se proporciona \"tal cual\" sin garantías de ningún tipo. No somos responsables de pérdidas financieras, daños o imprecisiones en los datos. Es tu responsabilidad verificar la exactitud de tus registros financieros y realizar respaldos regulares de tus datos."
+    },
+    "availability": {
+      "title": "Disponibilidad del Servicio",
+      "content": "Hacemos nuestro mejor esfuerzo para mantener BaselineApp disponible, pero no garantizamos un tiempo de actividad del 100%. Podemos suspender o descontinuar el servicio en cualquier momento con previo aviso."
+    },
+    "changes": {
+      "title": "Cambios a los Términos",
+      "content": "Nos reservamos el derecho de modificar estos términos en cualquier momento. Los cambios se publicarán en esta página con una fecha de actualización. Tu uso continuado de BaselineApp después de los cambios constituye tu aceptación de los nuevos términos."
+    },
+    "contact": {
+      "title": "Contacto",
+      "content": "Si tienes preguntas sobre estos términos, puedes contactarnos a través de:"
+    }
+  },
+  "privacy": {
+    "title": "Política de Privacidad",
+    "introduction": {
+      "title": "Introducción",
+      "content": "En BaselineApp, respetamos tu privacidad y nos comprometemos a proteger tus datos personales. Esta política explica cómo recopilamos, usamos y protegemos tu información."
+    },
+    "collection": {
+      "title": "Información que Recopilamos",
+      "intro": "Dependiendo del modo que uses, recopilamos:",
+      "guestMode": "Modo Invitado (Sin Cuenta):",
+      "guestItems": {
+        "noPersonal": "Ninguna información personal",
+        "localStorage": "Los datos se almacenan localmente en tu dispositivo",
+        "noServer": "No se envía información a nuestros servidores"
+      },
+      "cloudMode": "Modo Cloud (Con Cuenta):",
+      "cloudItems": {
+        "email": "Email y nombre (proporcionados al registrarte o usar OAuth)",
+        "photo": "Foto de perfil (si usas Google OAuth)",
+        "financial": "Datos financieros: transacciones, categorías, presupuestos, viajes",
+        "preferences": "Preferencias de la app: idioma, tema, moneda",
+        "metadata": "Metadata de sincronización: última actualización, dispositivo"
+      }
+    },
+    "usage": {
+      "title": "Cómo Usamos tu Información",
+      "intro": "Usamos tu información exclusivamente para:",
+      "items": {
+        "provide": "Proporcionar y mejorar nuestros servicios",
+        "sync": "Sincronizar tus datos entre dispositivos (modo cloud)",
+        "auth": "Autenticar tu identidad y mantener tu cuenta segura",
+        "support": "Responder a tus consultas de soporte",
+        "legal": "Cumplir con obligaciones legales"
+      },
+      "noSell": "❌ NO vendemos, compartimos ni usamos tus datos para publicidad"
+    },
+    "storage": {
+      "title": "Almacenamiento y Seguridad",
+      "content": "Tus datos están protegidos mediante:",
+      "items": {
+        "supabase": "Supabase: Plataforma segura con encriptación en tránsito (HTTPS/TLS)",
+        "rls": "Row Level Security (RLS): Solo tú puedes acceder a tus datos",
+        "oauth": "Autenticación OAuth: No almacenamos contraseñas en texto plano",
+        "backups": "Backups cifrados: Los respaldos locales usan SHA-256 checksum",
+        "local": "Almacenamiento local: localStorage del navegador (modo invitado)"
+      }
+    },
+    "thirdParty": {
+      "title": "Servicios de Terceros",
+      "intro": "BaselineApp utiliza los siguientes servicios:",
+      "supabase": "Supabase:",
+      "supabaseDesc": "Almacenamiento de datos y autenticación.",
+      "supabaseLink": "Ver política de privacidad",
+      "google": "Google OAuth:",
+      "googleDesc": "Autenticación opcional con Google.",
+      "googleLink": "Ver política de privacidad",
+      "revenuecat": "RevenueCat:",
+      "revenuecatDesc": "Gestión de suscripciones y pagos. RevenueCat procesa información de compra pero no tiene acceso a tus datos financieros personales.",
+      "revenuecatLink": "Ver política de privacidad"
+    },
+    "retention": {
+      "title": "Retención de Datos",
+      "content": "Conservamos tus datos mientras mantengas tu cuenta activa o según sea necesario para proporcionarte servicios. Puedes eliminar tu cuenta y todos tus datos en cualquier momento desde la configuración de la aplicación. Los datos en modo invitado solo existen en tu dispositivo y se eliminan al limpiar los datos del navegador."
+    },
+    "rights": {
+      "title": "Tus Derechos",
+      "intro": "Tienes derecho a:",
+      "items": {
+        "access": "Acceder: Ver todos tus datos almacenados",
+        "export": "Exportar: Descargar tus datos en formato JSON o CSV",
+        "rectify": "Rectificar: Editar o corregir tus datos",
+        "delete": "Eliminar: Borrar tu cuenta y todos tus datos",
+        "portability": "Portabilidad: Transferir tus datos a otro servicio",
+        "object": "Oponerte: Rechazar ciertos usos de tus datos"
+      }
+    },
+    "cookies": {
+      "title": "Cookies y Almacenamiento Local",
+      "content": "BaselineApp usa localStorage del navegador para almacenar tus preferencias (idioma, tema, moneda) y datos financieros (en modo invitado). No usamos cookies de seguimiento publicitario. La sesión de autenticación se gestiona mediante tokens seguros de Supabase."
+    },
+    "children": {
+      "title": "Privacidad de Menores",
+      "content": "BaselineApp no está dirigida a menores de 13 años. No recopilamos intencionalmente información de niños. Si descubres que un menor ha proporcionado datos personales, contacta con nosotros para eliminarlos."
+    },
+    "changes": {
+      "title": "Cambios a esta Política",
+      "content": "Podemos actualizar esta política de privacidad periódicamente. Te notificaremos de cambios significativos mediante un aviso en la aplicación. La fecha de \"última actualización\" al inicio de esta página indica cuándo se modificó por última vez."
+    },
+    "contact": {
+      "title": "Contacto",
+      "content": "Si tienes preguntas sobre esta política de privacidad o deseas ejercer tus derechos, contacta con nosotros:"
+    }
+  }
+}

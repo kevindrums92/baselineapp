@@ -1,0 +1,216 @@
+{
+  "sections": {
+    "appearance": "Apariencia",
+    "expenseManagement": "Gestión de Gastos",
+    "dataSecurity": "Datos y Seguridad",
+    "legal": "Legal"
+  },
+  "menu": {
+    "categories": "Categorías",
+    "categoriesSubtitle": "Administrar categorías",
+    "scheduled": "Programadas",
+    "scheduledSubtitle": "Transacciones automáticas",
+    "backup": "Backup & Restore",
+    "backupSubtitle": "Respaldar y restaurar datos",
+    "biometric": "Autenticación Biométrica",
+    "biometricEnabled": "Activa ({{type}})",
+    "biometricDisabled": "Desactivada",
+    "exportCSV": "Exportar CSV",
+    "exportCSVSubtitle": "Descargar datos en formato CSV",
+    "notifications": "Notificaciones",
+    "notificationsSubtitle": "Recordatorios y alertas"
+  },
+  "biometricLock": {
+    "unlockReason": "Desbloquear BaselineApp",
+    "enableReason": "Habilitar autenticación biométrica",
+    "title": "BaselineApp está bloqueada",
+    "subtitle": "Usa Face ID o tu código para desbloquear",
+    "unlockButton": "Desbloquear"
+  },
+  "preferences": {
+    "title": "Preferencias",
+    "language": {
+      "label": "Idioma",
+      "changed": "Idioma actualizado",
+      "cancel": "Cancelar"
+    },
+    "theme": {
+      "label": "Tema",
+      "light": "Claro",
+      "dark": "Oscuro",
+      "system": "Automático",
+      "changed": "Tema actualizado"
+    },
+    "currency": {
+      "label": "Moneda",
+      "changed": "Moneda actualizada",
+      "search": "Buscar moneda...",
+      "noResults": "No se encontraron monedas",
+      "recommended": "Recomendada para ti"
+    }
+  },
+  "account": {
+    "guest": {
+      "sessionLabel": "Sesión de Invitado",
+      "title": "Crea tu cuenta",
+      "subtitle": "Tus datos están seguros, pero no vinculados."
+    },
+    "syncStatus": {
+      "local": "Modo Local",
+      "offline": "Sin Conexión",
+      "syncing": "Sincronizando",
+      "synced": "Cloud Sync Activo"
+    },
+    "trial": {
+      "daysRemaining_one": "{{count}} día de prueba",
+      "daysRemaining_other": "{{count}} días de prueba"
+    },
+    "delete": {
+      "title": "Eliminar Cuenta",
+      "subtitle": "Elimina permanentemente tu cuenta y todos tus datos",
+      "buttonLabel": "Eliminar mi cuenta permanentemente",
+      "confirmTitle": "¿Eliminar tu cuenta?",
+      "confirmMessage": "Esta acción es permanente y no se puede deshacer. Se eliminarán:",
+      "dataList": {
+        "transactions": "Todas tus transacciones e historial financiero",
+        "categories": "Categorías y presupuestos personalizados",
+        "settings": "Preferencias y configuración",
+        "subscription": "Información de suscripción (deberás cancelarla por separado en la App Store)"
+      },
+      "warning": "Esta acción no se puede revertir",
+      "understanding": "Entiendo que esta acción es permanente",
+      "cancelButton": "Cancelar",
+      "deleteButton": "Eliminar Mi Cuenta",
+      "deleting": "Eliminando cuenta...",
+      "successTitle": "Cuenta Eliminada",
+      "successMessage": "Tu cuenta y todos tus datos han sido eliminados permanentemente.",
+      "errorTitle": "Error",
+      "errorMessage": "No se pudo eliminar tu cuenta. Por favor, intenta de nuevo o contacta a soporte."
+    },
+    "deleteData": {
+      "buttonLabel": "Eliminar mis datos",
+      "confirmTitle": "¿Eliminar tus datos?",
+      "confirmMessage": "Esta acción es permanente y no se puede deshacer. Se eliminarán:",
+      "deleteButton": "Eliminar Mis Datos",
+      "successTitle": "Datos Eliminados",
+      "successMessage": "Todos tus datos han sido eliminados permanentemente del servidor."
+    }
+  },
+  "login": "Iniciar sesión",
+  "logout": "Cerrar sesión",
+  "loggingOut": "Cerrando sesión...",
+  "loginWithGoogle": "Continuar con Google",
+  "noConnection": "Sin conexión",
+  "loginBanner": {
+    "title": "Protege tus finanzas",
+    "subtitle": "Inicia sesión para respaldar tus gastos en la nube.",
+    "action": "Conectar cuenta"
+  },
+  "subscriptionCard": {
+    "guest": {
+      "title": "Sin Respaldo en la Nube",
+      "subtitle": "Tus datos están solo en este dispositivo. Si lo pierdes o se daña, perderás todo tu historial financiero.",
+      "cta": "Crear Cuenta Gratis"
+    },
+    "free": {
+      "title": "Lleva tus Finanzas al Siguiente Nivel",
+      "subtitle": "Elimina los anuncios y desbloquea registros con IA ilimitados.",
+      "cta": "Descubre Pro"
+    },
+    "pro": {
+      "title": "Pro Activo",
+      "subtitle": "Respaldo en la nube + experiencia sin anuncios + IA ilimitada + todas las funciones premium.",
+      "status": "Todo está en orden",
+      "cta": "Administrar Suscripción"
+    }
+  },
+  "export": {
+    "info": {
+      "title": "Exportar a CSV",
+      "description": "Los archivos CSV se pueden abrir en Excel, Google Sheets y otras aplicaciones de hojas de cálculo."
+    },
+    "transactions": {
+      "title": "Transacciones",
+      "description": "Exportar todos los movimientos"
+    },
+    "categories": {
+      "title": "Categorías",
+      "description": "Exportar categorías personalizadas"
+    },
+    "budgets": {
+      "title": "Presupuestos",
+      "description": "Exportar límites de gastos"
+    },
+    "all": {
+      "title": "Todo",
+      "description": "Exportar transacciones, categorías y presupuestos"
+    },
+    "items": "elementos"
+  },
+  "legal": {
+    "lastUpdated": "Última actualización",
+    "terms": {
+      "title": "Términos de Servicio"
+    },
+    "privacy": {
+      "title": "Política de Privacidad"
+    }
+  },
+  "subscription": {
+    "title": "Mi Suscripción",
+    "currentPlan": "Plan Actual",
+    "plans": {
+      "free": "Gratis",
+      "monthly": "Pro Mensual",
+      "annual": "Pro Anual",
+      "lifetime": "Pro Vitalicio"
+    },
+    "status": {
+      "active": "Activa",
+      "inactive": "Inactiva",
+      "trial": "Prueba"
+    },
+    "trialDaysRemaining_one": "{{count}} día de prueba restante",
+    "trialDaysRemaining_other": "{{count}} días de prueba restantes",
+    "trialEnds": "Trial termina",
+    "renews": "Renueva",
+    "expires": "Expira",
+    "lifetimeAccess": "Acceso de por vida",
+    "perMonth": "/mes",
+    "perYear": "/año",
+    "oneTimePayment": "pago único",
+    "freePlanIncludes": "Tu plan gratuito incluye",
+    "freePlanFeature1": "Anuncios ocasionales para mantener la app gratuita",
+    "freePlanFeature2": "Funciones limitadas (mejora a Pro para desbloquear todo)",
+    "upgradePlan": "Mejora tu Plan",
+    "monthlyPlan": "Plan Mensual",
+    "flexibleMonthlyBilling": "Facturación mensual flexible",
+    "annualPlan": "Plan Anual",
+    "savingsPerYear": "Ahorra ${{amount}} al año",
+    "lifetimePlan": "Plan Vitalicio",
+    "unlimitedLifetimeAccess": "Acceso ilimitado de por vida",
+    "actions": "Acciones",
+    "restorePurchases": "Restaurar Compras",
+    "restorePurchasesSubtitle": "Si cambiaste de dispositivo",
+    "restoring": "Restaurando...",
+    "manageInAppStore": "Administrar en App Store",
+    "manageInAppStoreSubtitle": "Cancelar o modificar suscripción",
+    "messages": {
+      "purchaseError": "No se pudo procesar la compra. Intenta de nuevo.",
+      "purchaseRestored": "¡Compras restauradas exitosamente!",
+      "noPurchasesFound": "No se encontraron compras anteriores para restaurar.",
+      "restoreError": "Error al restaurar compras. Intenta de nuevo.",
+      "onlyMobile": "Restaurar compras solo está disponible en la app móvil.",
+      "manageOnlyMobile": "Administrar suscripción solo está disponible en la app móvil."
+    },
+    "info": {
+      "note": "Nota:",
+      "appleManagement": "Los cambios de suscripción y cancelaciones se gestionan a través de la App Store de Apple. Las cancelaciones entran en efecto al final del período de facturación actual."
+    },
+    "loginBanner": {
+      "title": "Protege tu suscripción",
+      "subtitle": "Crea una cuenta para mantener tu suscripción Pro y tus datos seguros. Si cambias de dispositivo sin una cuenta, podrías perder el acceso.",
+      "cta": "Crear Cuenta"
+    }
+  }
+}

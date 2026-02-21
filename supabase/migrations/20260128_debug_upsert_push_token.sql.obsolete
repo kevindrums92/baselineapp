@@ -1,0 +1,91 @@
+-- =====================================================
+-- DEBUG: Enhanced upsert_push_token with logging
+-- =====================================================
+-- This migration adds detailed logging to understand why preferences aren't persisting
+
+CREATE OR REPLACE FUNCTION upsert_push_token(
+  p_user_id UUID,
+  p_token TEXT,
+  p_platform platform_type,
+  p_device_info JSONB,
+  p_preferences JSONB
+)
+RETURNS UUID
+SECURITY DEFINER
+SET search_path = public
+LANGUAGE plpgsql
+AS $$
+DECLARE
+  v_token_id UUID;
+  v_existing_prefs JSONB;
+  v_row_count INT;
+BEGIN
+  -- Log input parameters
+  RAISE NOTICE 'upsert_push_token called with:';
+  RAISE NOTICE '  user_id: %', p_user_id;
+  RAISE NOTICE '  token: %', LEFT(p_token, 20) || '...';
+  RAISE NOTICE '  platform: %', p_platform;
+  RAISE NOTICE '  preferences: %', p_preferences::text;
+
+  -- Check if token exists
+  SELECT id, preferences INTO v_token_id, v_existing_prefs
+  FROM push_tokens
+  WHERE token = p_token;
+
+  IF v_token_id IS NOT NULL THEN
+    RAISE NOTICE 'Token EXISTS - will UPDATE';
+    RAISE NOTICE '  existing id: %', v_token_id;
+    RAISE NOTICE '  existing preferences: %', v_existing_prefs::text;
+  ELSE
+    RAISE NOTICE 'Token DOES NOT exist - will INSERT';
+  END IF;
+
+  -- Perform the upsert
+  INSERT INTO push_tokens (
+    user_id,
+    token,
+    platform,
+    device_info,
+    preferences,
+    is_active,
+    last_used_at
+  )
+  VALUES (
+    p_user_id,
+    p_token,
+    p_platform,
+    p_device_info,
+    p_preferences,
+    true,
+    NOW()
+  )
+  ON CONFLICT (token)
+  DO UPDATE SET
+    user_id = p_user_id,
+    platform = p_platform,
+    device_info = p_device_info,
+    preferences = p_preferences,
+    is_active = true,
+    last_used_at = NOW(),
+    updated_at = NOW()
+  RETURNING id INTO v_token_id;
+
+  GET DIAGNOSTICS v_row_count = ROW_COUNT;
+  RAISE NOTICE 'Upsert complete - rows affected: %', v_row_count;
+  RAISE NOTICE 'Returned token_id: %', v_token_id;
+
+  -- Verify what was actually saved
+  SELECT preferences INTO v_existing_prefs
+  FROM push_tokens
+  WHERE id = v_token_id;
+
+  RAISE NOTICE 'Preferences NOW in DB: %', v_existing_prefs::text;
+
+  RETURN v_token_id;
+END;
+$$;
+
+-- Grant execute permission to authenticated users
+GRANT EXECUTE ON FUNCTION upsert_push_token(UUID, TEXT, platform_type, JSONB, JSONB) TO authenticated;
+
+COMMENT ON FUNCTION upsert_push_token IS 'DEBUG VERSION: Upserts a push token with detailed logging to diagnose why preferences are not persisting';

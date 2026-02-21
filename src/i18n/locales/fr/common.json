@@ -1,0 +1,90 @@
+{
+  "buttons": {
+    "save": "Enregistrer",
+    "cancel": "Annuler",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "continue": "Continuer",
+    "back": "Retour",
+    "confirm": "Confirmer",
+    "close": "Fermer",
+    "ok": "OK",
+    "yes": "Oui",
+    "no": "Non",
+    "add": "Ajouter",
+    "create": "Créer",
+    "update": "Mettre à jour",
+    "restore": "Restaurer",
+    "download": "Télécharger",
+    "upload": "Envoyer",
+    "export": "Exporter",
+    "import": "Importer",
+    "skip": "Passer"
+  },
+  "date": {
+    "today": "Aujourd'hui",
+    "yesterday": "Hier",
+    "tomorrow": "Demain",
+    "thisWeek": "Cette semaine",
+    "thisMonth": "Ce mois-ci",
+    "lastMonth": "Le mois dernier",
+    "month": "Mois",
+    "previousMonth": "Mois précédent",
+    "nextMonth": "Mois suivant",
+    "goToCurrentMonth": "Aller au mois actuel"
+  },
+  "datePicker": {
+    "selectDate": "Sélectionner une date",
+    "close": "Fermer"
+  },
+  "navigation": {
+    "home": "Accueil",
+    "plan": "Plan",
+    "stats": "Statistiques",
+    "settings": "Paramètres"
+  },
+  "settings": {
+    "title": "Paramètres",
+    "subtitle": "Général et Compte"
+  },
+  "errors": {
+    "generic": "Une erreur inattendue s'est produite",
+    "networkError": "Erreur de connexion",
+    "notFound": "Non trouvé",
+    "unauthorized": "Non autorisé",
+    "forbidden": "Accès refusé"
+  },
+  "loading": "Chargement...",
+  "noData": "Aucune donnée disponible",
+  "search": "Rechercher...",
+  "filter": "Filtrer",
+  "cancel": "Annuler",
+  "save": "Enregistrer",
+  "delete": "Supprimer",
+  "edit": "Modifier",
+  "confirm": "Confirmer",
+  "ok": "OK",
+  "defaultCategories": {
+    "mercado": "Marché",
+    "restaurantes": "Restaurants",
+    "servicios": "Services",
+    "arriendo": "Loyer",
+    "suscripciones": "Abonnements",
+    "ropa": "Vêtements",
+    "educacion": "Éducation",
+    "entretenimiento": "Divertissement",
+    "hijos": "Enfants",
+    "salud": "Santé",
+    "transporte": "Transport",
+    "gasolina": "Essence",
+    "otrosGastos": "Autres Dépenses",
+    "salario": "Salaire",
+    "bonos": "Bonus",
+    "freelance": "Freelance",
+    "beneficios": "Avantages",
+    "inversiones": "Investissements",
+    "arriendoRecibido": "Loyer Reçu",
+    "propinas": "Pourboires",
+    "otrosIngresos": "Autres Revenus"
+  }
+}

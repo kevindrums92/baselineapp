@@ -1,0 +1,158 @@
+{
+  "lastUpdated": "Last updated",
+  "lastUpdatedDate": "February 1, 2026",
+  "terms": {
+    "title": "Terms of Service",
+    "introduction": {
+      "title": "Introduction",
+      "content": "Welcome to BaselineApp. By using our application, you accept these terms of service. BaselineApp is a personal finance management application designed to help you track your expenses, income, and budgets."
+    },
+    "service": {
+      "title": "Service Description",
+      "content": "BaselineApp offers:",
+      "features": {
+        "transactions": "Transaction tracking (income and expenses)",
+        "categories": "Category and budget management",
+        "stats": "Financial statistics visualization",
+        "sync": "Optional cloud synchronization",
+        "guest": "Guest mode with local storage",
+        "backup": "Data backup and export"
+      }
+    },
+    "accounts": {
+      "title": "User Accounts",
+      "content": "You can use BaselineApp in two modes:",
+      "guestMode": "Guest Mode:",
+      "guestDescription": "Your data is stored locally on your device. No account required.",
+      "cloudMode": "Cloud Mode:",
+      "cloudDescription": "By creating an account, your data syncs with our servers using Supabase. You are responsible for maintaining the confidentiality of your account."
+    },
+    "subscription": {
+      "title": "Subscriptions and Payments",
+      "content": "BaselineApp offers an optional Pro subscription that unlocks premium features. Payments are processed securely through RevenueCat and app stores (App Store, Google Play). Subscriptions automatically renew unless you cancel before the renewal date. You can manage your subscription from your app store account settings."
+    },
+    "ownership": {
+      "title": "Data Ownership",
+      "content": "All your financial data belongs to you. BaselineApp does not share, sell, or use your data for advertising. You can export or delete your data at any time from the app settings."
+    },
+    "use": {
+      "title": "Acceptable Use",
+      "content": "By using BaselineApp, you agree to:",
+      "rules": {
+        "legal": "Use the app only for legal and personal purposes",
+        "noAccess": "Not attempt to access other users' data",
+        "noModify": "Not modify, copy, or distribute the app without authorization",
+        "noDamage": "Not use the app in a way that could damage or disrupt the service"
+      }
+    },
+    "limitations": {
+      "title": "Limitation of Liability",
+      "content": "BaselineApp is provided \"as is\" without warranties of any kind. We are not responsible for financial losses, damages, or inaccuracies in the data. It is your responsibility to verify the accuracy of your financial records and perform regular backups of your data."
+    },
+    "availability": {
+      "title": "Service Availability",
+      "content": "We make our best effort to keep BaselineApp available, but we do not guarantee 100% uptime. We may suspend or discontinue the service at any time with prior notice."
+    },
+    "changes": {
+      "title": "Changes to Terms",
+      "content": "We reserve the right to modify these terms at any time. Changes will be posted on this page with an update date. Your continued use of BaselineApp after changes constitutes your acceptance of the new terms."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "If you have questions about these terms, you can contact us at:"
+    }
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "introduction": {
+      "title": "Introduction",
+      "content": "At BaselineApp, we respect your privacy and are committed to protecting your personal data. This policy explains how we collect, use, and protect your information."
+    },
+    "collection": {
+      "title": "Information We Collect",
+      "intro": "Depending on the mode you use, we collect:",
+      "guestMode": "Guest Mode (No Account):",
+      "guestItems": {
+        "noPersonal": "No personal information",
+        "localStorage": "Data is stored locally on your device",
+        "noServer": "No information is sent to our servers"
+      },
+      "cloudMode": "Cloud Mode (With Account):",
+      "cloudItems": {
+        "email": "Email and name (provided when registering or using OAuth)",
+        "photo": "Profile photo (if using Google OAuth)",
+        "financial": "Financial data: transactions, categories, budgets, trips",
+        "preferences": "App preferences: language, theme, currency",
+        "metadata": "Sync metadata: last update, device"
+      }
+    },
+    "usage": {
+      "title": "How We Use Your Information",
+      "intro": "We use your information exclusively to:",
+      "items": {
+        "provide": "Provide and improve our services",
+        "sync": "Sync your data across devices (cloud mode)",
+        "auth": "Authenticate your identity and keep your account secure",
+        "support": "Respond to your support inquiries",
+        "legal": "Comply with legal obligations"
+      },
+      "noSell": "❌ We do NOT sell, share, or use your data for advertising"
+    },
+    "storage": {
+      "title": "Storage and Security",
+      "content": "Your data is protected through:",
+      "items": {
+        "supabase": "Supabase: Secure platform with encryption in transit (HTTPS/TLS)",
+        "rls": "Row Level Security (RLS): Only you can access your data",
+        "oauth": "OAuth Authentication: We don't store passwords in plain text",
+        "backups": "Encrypted backups: Local backups use SHA-256 checksum",
+        "local": "Local storage: Browser localStorage (guest mode)"
+      }
+    },
+    "thirdParty": {
+      "title": "Third-Party Services",
+      "intro": "BaselineApp uses the following services:",
+      "supabase": "Supabase:",
+      "supabaseDesc": "Data storage and authentication.",
+      "supabaseLink": "View privacy policy",
+      "google": "Google OAuth:",
+      "googleDesc": "Optional Google authentication.",
+      "googleLink": "View privacy policy",
+      "revenuecat": "RevenueCat:",
+      "revenuecatDesc": "Subscription and payment management. RevenueCat processes purchase information but does not have access to your personal financial data.",
+      "revenuecatLink": "View privacy policy"
+    },
+    "retention": {
+      "title": "Data Retention",
+      "content": "We retain your data while you maintain an active account or as necessary to provide you services. You can delete your account and all your data at any time from the app settings. Guest mode data only exists on your device and is deleted when you clear browser data."
+    },
+    "rights": {
+      "title": "Your Rights",
+      "intro": "You have the right to:",
+      "items": {
+        "access": "Access: View all your stored data",
+        "export": "Export: Download your data in JSON or CSV format",
+        "rectify": "Rectify: Edit or correct your data",
+        "delete": "Delete: Erase your account and all your data",
+        "portability": "Portability: Transfer your data to another service",
+        "object": "Object: Reject certain uses of your data"
+      }
+    },
+    "cookies": {
+      "title": "Cookies and Local Storage",
+      "content": "BaselineApp uses browser localStorage to store your preferences (language, theme, currency) and financial data (in guest mode). We do not use advertising tracking cookies. Authentication sessions are managed through secure Supabase tokens."
+    },
+    "children": {
+      "title": "Children's Privacy",
+      "content": "BaselineApp is not directed at children under 13 years old. We do not intentionally collect information from children. If you discover that a minor has provided personal data, contact us to delete it."
+    },
+    "changes": {
+      "title": "Changes to This Policy",
+      "content": "We may update this privacy policy periodically. We will notify you of significant changes through a notice in the app. The \"last updated\" date at the top of this page indicates when it was last modified."
+    },
+    "contact": {
+      "title": "Contact",
+      "content": "If you have questions about this privacy policy or wish to exercise your rights, contact us:"
+    }
+  }
+}

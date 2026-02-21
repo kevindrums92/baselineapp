@@ -1,0 +1,90 @@
+{
+  "buttons": {
+    "save": "Guardar",
+    "cancel": "Cancelar",
+    "delete": "Eliminar",
+    "edit": "Editar",
+    "continue": "Continuar",
+    "back": "Volver",
+    "confirm": "Confirmar",
+    "close": "Cerrar",
+    "ok": "OK",
+    "yes": "Sí",
+    "no": "No",
+    "add": "Agregar",
+    "create": "Crear",
+    "update": "Actualizar",
+    "restore": "Restaurar",
+    "download": "Descargar",
+    "upload": "Subir",
+    "export": "Exportar",
+    "import": "Importar",
+    "skip": "Omitir"
+  },
+  "date": {
+    "today": "Hoy",
+    "yesterday": "Ayer",
+    "tomorrow": "Mañana",
+    "thisWeek": "Esta semana",
+    "thisMonth": "Este mes",
+    "lastMonth": "Mes pasado",
+    "month": "Mes",
+    "previousMonth": "Mes anterior",
+    "nextMonth": "Mes siguiente",
+    "goToCurrentMonth": "Ir al mes actual"
+  },
+  "datePicker": {
+    "selectDate": "Seleccionar fecha",
+    "close": "Cerrar"
+  },
+  "navigation": {
+    "home": "Inicio",
+    "plan": "Plan",
+    "stats": "Estadísticas",
+    "settings": "Ajustes"
+  },
+  "settings": {
+    "title": "Configuración",
+    "subtitle": "General y Cuenta"
+  },
+  "errors": {
+    "generic": "Ocurrió un error inesperado",
+    "networkError": "Error de conexión",
+    "notFound": "No encontrado",
+    "unauthorized": "No autorizado",
+    "forbidden": "Acceso denegado"
+  },
+  "loading": "Cargando...",
+  "noData": "No hay datos disponibles",
+  "search": "Buscar...",
+  "filter": "Filtrar",
+  "cancel": "Cancelar",
+  "save": "Guardar",
+  "delete": "Eliminar",
+  "edit": "Editar",
+  "confirm": "Confirmar",
+  "ok": "OK",
+  "defaultCategories": {
+    "mercado": "Mercado",
+    "restaurantes": "Restaurantes",
+    "servicios": "Servicios",
+    "arriendo": "Arriendo",
+    "suscripciones": "Suscripciones",
+    "ropa": "Ropa",
+    "educacion": "Educación",
+    "entretenimiento": "Entretenimiento",
+    "hijos": "Hijos",
+    "salud": "Salud",
+    "transporte": "Transporte",
+    "gasolina": "Gasolina",
+    "otrosGastos": "Otros Gastos",
+    "salario": "Salario",
+    "bonos": "Bonos",
+    "freelance": "Freelance",
+    "beneficios": "Beneficios",
+    "inversiones": "Inversiones",
+    "arriendoRecibido": "Arriendo Recibido",
+    "propinas": "Propinas",
+    "otrosIngresos": "Otros Ingresos"
+  }
+}

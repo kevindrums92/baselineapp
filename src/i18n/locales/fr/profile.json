@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "appearance": "Apparence",
+    "expenseManagement": "Gestion des Dépenses",
+    "dataSecurity": "Données et Sécurité",
+    "legal": "Légal"
+  },
+  "menu": {
+    "categories": "Catégories",
+    "categoriesSubtitle": "Gérer les catégories",
+    "scheduled": "Programmées",
+    "scheduledSubtitle": "Transactions automatiques",
+    "backup": "Sauvegarde & Restauration",
+    "backupSubtitle": "Sauvegarder et restaurer les données",
+    "biometric": "Authentification Biométrique",
+    "biometricEnabled": "Activée ({{type}})",
+    "biometricDisabled": "Désactivée",
+    "exportCSV": "Exporter CSV",
+    "exportCSVSubtitle": "Télécharger les données au format CSV",
+    "notifications": "Notifications",
+    "notificationsSubtitle": "Rappels et alertes"
+  },
+  "biometricLock": {
+    "unlockReason": "Déverrouiller BaselineApp",
+    "enableReason": "Activer l'authentification biométrique",
+    "title": "BaselineApp est verrouillée",
+    "subtitle": "Utilisez Face ID ou votre code pour déverrouiller",
+    "unlockButton": "Déverrouiller"
+  },
+  "preferences": {
+    "title": "Préférences",
+    "language": {
+      "label": "Langue",
+      "changed": "Langue mise à jour",
+      "cancel": "Annuler"
+    },
+    "theme": {
+      "label": "Thème",
+      "light": "Clair",
+      "dark": "Sombre",
+      "system": "Automatique",
+      "changed": "Thème mis à jour"
+    },
+    "currency": {
+      "label": "Devise",
+      "changed": "Devise mise à jour",
+      "search": "Rechercher une devise...",
+      "noResults": "Aucune devise trouvée",
+      "recommended": "Recommandée pour vous"
+    }
+  },
+  "account": {
+    "guest": {
+      "sessionLabel": "Session Invité",
+      "title": "Créez votre compte",
+      "subtitle": "Vos données sont sécurisées, mais non liées."
+    },
+    "syncStatus": {
+      "local": "Mode Local",
+      "offline": "Hors Ligne",
+      "syncing": "Synchronisation",
+      "synced": "Synchronisation Cloud Active"
+    },
+    "trial": {
+      "daysRemaining_one": "{{count}} jour d'essai",
+      "daysRemaining_other": "{{count}} jours d'essai"
+    },
+    "delete": {
+      "title": "Supprimer le Compte",
+      "subtitle": "Supprimer définitivement votre compte et toutes vos données",
+      "buttonLabel": "Supprimer mon compte définitivement",
+      "confirmTitle": "Supprimer votre compte ?",
+      "confirmMessage": "Cette action est permanente et ne peut pas être annulée. Les éléments suivants seront supprimés :",
+      "dataList": {
+        "transactions": "Toutes vos transactions et votre historique financier",
+        "categories": "Catégories et budgets personnalisés",
+        "settings": "Préférences et paramètres",
+        "subscription": "Informations d'abonnement (vous devrez annuler séparément dans l'App Store)"
+      },
+      "warning": "Cette action ne peut pas être inversée",
+      "understanding": "Je comprends que cette action est permanente",
+      "cancelButton": "Annuler",
+      "deleteButton": "Supprimer Mon Compte",
+      "deleting": "Suppression du compte...",
+      "successTitle": "Compte Supprimé",
+      "successMessage": "Votre compte et toutes vos données ont été définitivement supprimés.",
+      "errorTitle": "Erreur",
+      "errorMessage": "Nous n'avons pas pu supprimer votre compte. Veuillez réessayer ou contacter le support."
+    },
+    "deleteData": {
+      "buttonLabel": "Supprimer mes données",
+      "confirmTitle": "Supprimer vos données ?",
+      "confirmMessage": "Cette action est permanente et irréversible. Les éléments suivants seront supprimés :",
+      "deleteButton": "Supprimer Mes Données",
+      "successTitle": "Données Supprimées",
+      "successMessage": "Toutes vos données ont été définitivement supprimées du serveur."
+    }
+  },
+  "login": "Se connecter",
+  "logout": "Se déconnecter",
+  "loggingOut": "Déconnexion...",
+  "loginWithGoogle": "Continuer avec Google",
+  "noConnection": "Pas de connexion",
+  "loginBanner": {
+    "title": "Protégez vos finances",
+    "subtitle": "Connectez-vous pour sauvegarder vos dépenses dans le cloud.",
+    "action": "Connecter le compte"
+  },
+  "subscriptionCard": {
+    "guest": {
+      "title": "Pas de Sauvegarde Cloud",
+      "subtitle": "Vos données sont uniquement sur cet appareil. Si vous le perdez ou s'il est endommagé, vous perdrez tout votre historique financier.",
+      "cta": "Créer un Compte Gratuit"
+    },
+    "free": {
+      "title": "Améliorez vos Finances au Niveau Supérieur",
+      "subtitle": "Supprimez les publicites et debloquez les saisies IA illimitees.",
+      "cta": "Découvrir Pro"
+    },
+    "pro": {
+      "title": "Pro Actif",
+      "subtitle": "Sauvegarde cloud + sans publicite + IA illimitee + toutes les fonctionnalites premium.",
+      "status": "Tout est en ordre",
+      "cta": "Gérer l'Abonnement"
+    }
+  },
+  "export": {
+    "info": {
+      "title": "Exporter en CSV",
+      "description": "Les fichiers CSV peuvent être ouverts dans Excel, Google Sheets et d'autres applications de feuilles de calcul."
+    },
+    "transactions": {
+      "title": "Transactions",
+      "description": "Exporter tous les mouvements"
+    },
+    "categories": {
+      "title": "Catégories",
+      "description": "Exporter les catégories personnalisées"
+    },
+    "budgets": {
+      "title": "Budgets",
+      "description": "Exporter les limites de dépenses"
+    },
+    "all": {
+      "title": "Tout",
+      "description": "Exporter transactions, catégories et budgets"
+    },
+    "items": "éléments"
+  },
+  "legal": {
+    "lastUpdated": "Dernière mise à jour",
+    "terms": {
+      "title": "Conditions d'utilisation"
+    },
+    "privacy": {
+      "title": "Politique de confidentialité"
+    }
+  },
+  "subscription": {
+    "loginBanner": {
+      "title": "Protégez votre abonnement",
+      "subtitle": "Créez un compte pour conserver votre abonnement Pro et vos données en sécurité. Si vous changez d'appareil sans compte, vous pourriez perdre l'accès.",
+      "cta": "Créer un Compte"
+    }
+  }
+}

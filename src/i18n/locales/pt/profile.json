@@ -1,0 +1,166 @@
+{
+  "sections": {
+    "appearance": "Aparência",
+    "expenseManagement": "Gestão de Despesas",
+    "dataSecurity": "Dados e Segurança",
+    "legal": "Legal"
+  },
+  "menu": {
+    "categories": "Categorias",
+    "categoriesSubtitle": "Gerenciar categorias",
+    "scheduled": "Programadas",
+    "scheduledSubtitle": "Transações automáticas",
+    "backup": "Backup & Restaurar",
+    "backupSubtitle": "Fazer backup e restaurar dados",
+    "biometric": "Autenticação Biométrica",
+    "biometricEnabled": "Ativa ({{type}})",
+    "biometricDisabled": "Desativada",
+    "exportCSV": "Exportar CSV",
+    "exportCSVSubtitle": "Baixar dados em formato CSV",
+    "notifications": "Notificações",
+    "notificationsSubtitle": "Lembretes e alertas"
+  },
+  "biometricLock": {
+    "unlockReason": "Desbloquear BaselineApp",
+    "enableReason": "Ativar autenticação biométrica",
+    "title": "BaselineApp está bloqueado",
+    "subtitle": "Use Face ID ou seu código para desbloquear",
+    "unlockButton": "Desbloquear"
+  },
+  "preferences": {
+    "title": "Preferências",
+    "language": {
+      "label": "Idioma",
+      "changed": "Idioma atualizado",
+      "cancel": "Cancelar"
+    },
+    "theme": {
+      "label": "Tema",
+      "light": "Claro",
+      "dark": "Escuro",
+      "system": "Automático",
+      "changed": "Tema atualizado"
+    },
+    "currency": {
+      "label": "Moeda",
+      "changed": "Moeda atualizada",
+      "search": "Buscar moeda...",
+      "noResults": "Nenhuma moeda encontrada",
+      "recommended": "Recomendada para você"
+    }
+  },
+  "account": {
+    "guest": {
+      "sessionLabel": "Sessão de Convidado",
+      "title": "Crie sua conta",
+      "subtitle": "Seus dados estão seguros, mas não vinculados."
+    },
+    "syncStatus": {
+      "local": "Modo Local",
+      "offline": "Sem Conexão",
+      "syncing": "Sincronizando",
+      "synced": "Sincronização em Nuvem Ativa"
+    },
+    "trial": {
+      "daysRemaining_one": "{{count}} dia de teste",
+      "daysRemaining_other": "{{count}} dias de teste"
+    },
+    "delete": {
+      "title": "Excluir Conta",
+      "subtitle": "Excluir permanentemente sua conta e todos os seus dados",
+      "buttonLabel": "Excluir minha conta permanentemente",
+      "confirmTitle": "Excluir sua conta?",
+      "confirmMessage": "Esta ação é permanente e não pode ser desfeita. Os seguintes itens serão excluídos:",
+      "dataList": {
+        "transactions": "Todas as suas transações e histórico financeiro",
+        "categories": "Categorias e orçamentos personalizados",
+        "settings": "Preferências e configurações",
+        "subscription": "Informações de assinatura (você precisará cancelar separadamente na App Store)"
+      },
+      "warning": "Esta ação não pode ser revertida",
+      "understanding": "Eu entendo que esta ação é permanente",
+      "cancelButton": "Cancelar",
+      "deleteButton": "Excluir Minha Conta",
+      "deleting": "Excluindo conta...",
+      "successTitle": "Conta Excluída",
+      "successMessage": "Sua conta e todos os seus dados foram permanentemente excluídos.",
+      "errorTitle": "Erro",
+      "errorMessage": "Não foi possível excluir sua conta. Por favor, tente novamente ou entre em contato com o suporte."
+    },
+    "deleteData": {
+      "buttonLabel": "Excluir meus dados",
+      "confirmTitle": "Excluir seus dados?",
+      "confirmMessage": "Esta ação é permanente e não pode ser desfeita. Os seguintes itens serão excluídos:",
+      "deleteButton": "Excluir Meus Dados",
+      "successTitle": "Dados Excluídos",
+      "successMessage": "Todos os seus dados foram excluídos permanentemente do servidor."
+    }
+  },
+  "login": "Fazer login",
+  "logout": "Sair",
+  "loggingOut": "Saindo...",
+  "loginWithGoogle": "Continuar com Google",
+  "noConnection": "Sem conexão",
+  "loginBanner": {
+    "title": "Proteja suas finanças",
+    "subtitle": "Faça login para fazer backup de suas despesas na nuvem.",
+    "action": "Conectar conta"
+  },
+  "subscriptionCard": {
+    "guest": {
+      "title": "Sem Backup na Nuvem",
+      "subtitle": "Seus dados estão apenas neste dispositivo. Se você perdê-lo ou ele for danificado, você perderá todo o seu histórico financeiro.",
+      "cta": "Criar Conta Grátis"
+    },
+    "free": {
+      "title": "Leve suas Finanças ao Próximo Nível",
+      "subtitle": "Remova os anuncios e desbloqueie entradas IA ilimitadas.",
+      "cta": "Descobrir Pro"
+    },
+    "pro": {
+      "title": "Pro Ativo",
+      "subtitle": "Backup na nuvem + sem anuncios + IA ilimitada + todos os recursos premium.",
+      "status": "Tudo está em ordem",
+      "cta": "Gerenciar Assinatura"
+    }
+  },
+  "export": {
+    "info": {
+      "title": "Exportar para CSV",
+      "description": "Os arquivos CSV podem ser abertos no Excel, Google Sheets e outros aplicativos de planilhas."
+    },
+    "transactions": {
+      "title": "Transações",
+      "description": "Exportar todos os movimentos"
+    },
+    "categories": {
+      "title": "Categorias",
+      "description": "Exportar categorias personalizadas"
+    },
+    "budgets": {
+      "title": "Orçamentos",
+      "description": "Exportar limites de gastos"
+    },
+    "all": {
+      "title": "Tudo",
+      "description": "Exportar transações, categorias e orçamentos"
+    },
+    "items": "itens"
+  },
+  "legal": {
+    "lastUpdated": "Última atualização",
+    "terms": {
+      "title": "Termos de Serviço"
+    },
+    "privacy": {
+      "title": "Política de Privacidade"
+    }
+  },
+  "subscription": {
+    "loginBanner": {
+      "title": "Proteja sua assinatura",
+      "subtitle": "Crie uma conta para manter sua assinatura Pro e seus dados seguros. Se você trocar de dispositivo sem uma conta, poderá perder o acesso.",
+      "cta": "Criar Conta"
+    }
+  }
+}

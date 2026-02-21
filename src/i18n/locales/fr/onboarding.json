@@ -1,0 +1,292 @@
+{
+  "welcome": {
+    "screen1": {
+      "title1": "Bienvenue sur",
+      "title2": "BaselineApp",
+      "subtitle": "La façon la plus intelligente de gérer vos finances personnelles",
+      "feature1Title": "Fonctionne hors ligne",
+      "feature1Desc": "Vos données sont sur votre appareil, toujours disponibles",
+      "feature2Title": "Confidentialité totale",
+      "feature2Desc": "Vous décidez si vous synchronisez ou gardez tout en local",
+      "feature3Title": "Contrôle financier",
+      "feature3Desc": "Budgets, analyses et automatisation en un seul endroit",
+      "start": "Commencer"
+    },
+    "screen2": {
+      "badge": "Inscription en secondes",
+      "title": "Commencez en\nmoins de 1 minute",
+      "subtitle": "Sans formulaires compliqués. Juste l'essentiel pour protéger vos informations.",
+      "feature1Title": "Chiffrement de bout en bout",
+      "feature1Desc": "Vos données sont toujours protégées",
+      "feature2Title": "Sans spam ni publicité",
+      "feature2Desc": "Uniquement des notifications importantes",
+      "continue": "Continuer"
+    },
+    "screen3": {
+      "title": "Budgets sans\nstress ni complications",
+      "subtitle": "Organisez vos dépenses par catégories et gardez le contrôle total",
+      "categoryFood": "Alimentation",
+      "categoryShop": "Achats",
+      "categoryHome": "Maison",
+      "alertNote": "Des alertes intelligentes vous avertissent lorsque vous approchez de la limite de votre budget",
+      "continue": "Continuer"
+    },
+    "screen4": {
+      "title": "Découvrez vos\nhabitudes de dépenses",
+      "subtitle": "Visualisez les tendances et prenez de meilleures décisions financières",
+      "chartTitle": "7 derniers jours",
+      "dayMon": "L",
+      "dayTue": "M",
+      "dayWed": "M",
+      "dayThu": "J",
+      "dayFri": "V",
+      "daySat": "S",
+      "daySun": "D",
+      "avgDaily": "Moyenne quotidienne",
+      "weeklyTotal": "Total hebdomadaire",
+      "insight1Title": "Jours de pic de dépenses",
+      "insight1Desc": "Nous avons identifié que vous dépensez plus les vendredis et samedis",
+      "insight2Title": "Catégorie principale",
+      "insight2Desc": "40% de vos dépenses sont en alimentation",
+      "continue": "Continuer"
+    },
+    "screen5": {
+      "badge": "Gagnez du temps",
+      "title": "Automatisez vos\ndépenses récurrentes",
+      "subtitle": "Configurez une fois, oubliez le reste. Parfait pour les abonnements et les paiements fixes.",
+      "netflix": "Netflix",
+      "rent": "Loyer",
+      "credit": "Carte de crédit",
+      "every1st": "Chaque 1er",
+      "every5th": "Chaque 5",
+      "every15th": "Chaque 15",
+      "active": "Actif",
+      "reminderNote": "Rappels automatiques : Nous vous avertissons avant chaque paiement pour que vous soyez toujours au courant",
+      "continue": "Continuer"
+    },
+    "screen6": {
+      "title": "Comprenez où\nva votre argent",
+      "subtitle": "Des insights clairs sur vos finances pour prendre de meilleures décisions",
+      "distributionTitle": "Répartition des dépenses",
+      "total": "Total",
+      "catFood": "Alimentation",
+      "catHome": "Maison",
+      "catTransport": "Transport",
+      "catOthers": "Autres",
+      "avgDaily": "Moyenne quotidienne",
+      "topCategory": "Catégorie principale",
+      "topCategoryFood": "Nourriture",
+      "peakDay": "Jour de pic",
+      "peakDayFriday": "Vendredi",
+      "startNow": "Commencer maintenant"
+    },
+    "screen7": {
+      "title": "Choisissez votre plan",
+      "subtitle": "Commencez avec 7 jours gratuits de toutes les fonctionnalités Pro, ou utilisez BaselineApp Lite sans limite de temps",
+      "proTrialBadge": "Essai gratuit",
+      "proTrialTitle": "Essayez Pro gratuitement pendant 7 jours",
+      "proTrialDescription": "Accès complet à toutes les fonctionnalités premium. Annulez quand vous voulez.",
+      "proAdFreeNote": "Expérience 100% sans publicité",
+      "liteBadge": "Toujours gratuit",
+      "liteTitle": "Continuer avec Lite",
+      "liteDescription": "Toutes les fonctionnalités essentielles pour gérer vos finances. Toujours gratuit avec publicités.",
+      "liteAdsNote": "Inclut des publicités non intrusives pour maintenir le service gratuit",
+      "features": {
+        "unlimited": "Catégories et budgets illimités",
+        "cloudSync": "Synchronisation cloud",
+        "stats": "Statistiques détaillées",
+        "notifications": "Notifications push intelligentes"
+      },
+      "liteFeatures": {
+        "basicTracking": "Suivi de base illimité",
+        "budgets": "Jusqu'à 2 budgets actifs",
+        "categories": "Jusqu'à 5 catégories personnalisées"
+      },
+      "disclaimer": "Essai sans risque. Annulez avant la fin et vous ne serez pas facturé."
+    }
+  },
+  "language": {
+    "title": "Choisissez votre langue",
+    "description": "Sélectionnez la langue dans laquelle vous préférez utiliser BaselineApp. Vous pourrez la modifier plus tard depuis votre profil.",
+    "continue": "Continuer",
+    "skip": "Passer la configuration"
+  },
+  "theme": {
+    "title": "Choisissez votre thème",
+    "description": "Personnalisez l'apparence de BaselineApp selon vos préférences.",
+    "continue": "Continuer",
+    "skip": "Passer la configuration",
+    "note": "Le thème sera appliqué lors de l'implémentation du mode sombre",
+    "light": {
+      "title": "Clair",
+      "description": "Interface lumineuse idéale pour la journée"
+    },
+    "dark": {
+      "title": "Sombre",
+      "description": "Réduit la fatigue visuelle dans les environnements peu éclairés"
+    },
+    "system": {
+      "title": "Automatique",
+      "description": "S'adapte aux paramètres de votre appareil"
+    }
+  },
+  "currency": {
+    "title": "Choisissez votre devise",
+    "description": "Sélectionnez la devise principale pour vos enregistrements financiers.",
+    "search": "Rechercher une devise...",
+    "recommended": "Recommandée pour vous",
+    "noResults": "Aucune devise trouvée",
+    "continue": "Continuer",
+    "skip": "Passer la configuration",
+    "note": "Pour l'instant, elle est utilisée uniquement comme référence visuelle. Multi-devises sera bientôt disponible."
+  },
+  "categories": {
+    "title": "Catégories par défaut",
+    "description": "Sélectionnez les catégories que vous souhaitez utiliser. Vous pouvez décocher celles dont vous n'avez pas besoin.",
+    "expenses": "Dépenses",
+    "income": "Revenus",
+    "continue": "Continuer",
+    "note": "Note : Vous pourrez créer des catégories personnalisées plus tard depuis la section Paramètres."
+  },
+  "complete": {
+    "title": "Tout est prêt pour\ncommencer !",
+    "subtitle": "Vous pouvez maintenant commencer à gérer vos finances de manière intelligente.",
+    "configTitle": "Votre configuration",
+    "language": "Langue",
+    "languageEs": "Español",
+    "languageEn": "English",
+    "theme": "Thème",
+    "themeLight": "Clair",
+    "themeDark": "Sombre",
+    "themeSystem": "Automatique",
+    "currency": "Devise",
+    "categories": "Catégories",
+    "categoriesSelected": "sélectionnées",
+    "feature1": "📊 Enregistrez vos transactions",
+    "feature1Desc": "Ajoutez facilement des revenus et des dépenses",
+    "feature2": "💰 Créez des budgets",
+    "feature2Desc": "Contrôlez vos dépenses par catégories",
+    "feature3": "📈 Analysez vos données",
+    "feature3Desc": "Visualisez vos habitudes de dépenses",
+    "start": "Commencer à utiliser BaselineApp",
+    "note": "Vous pouvez modifier ces options depuis votre profil à tout moment"
+  },
+  "login": {
+    "title": "Protégez vos données",
+    "subtitle": "Vos transactions sont synchronisées anonymement, mais si vous perdez votre téléphone ou désinstallez l'app, vous les perdrez. Connectez-vous pour les sécuriser.",
+    "privacyNote": "Chiffrement de bout en bout. Vos données financières sont privées et sécurisées.",
+    "guestTitle": "Explorer en tant qu'invité",
+    "guestDesc": "Sans compte, données uniquement sur cet appareil",
+    "guestContinue": "Continuer en tant qu'invité",
+    "divider": "Connectez-vous avec",
+    "continueWith": "Continuer avec",
+    "google": "Google",
+    "apple": "Apple",
+    "emailLink": "Utiliser nom d'utilisateur et mot de passe",
+    "termsPrefix": "En continuant, vous acceptez nos",
+    "termsService": "Conditions d'utilisation",
+    "termsAnd": "et",
+    "termsPrivacy": "Politique de confidentialité",
+    "errorApple": "La connexion Apple sera bientôt disponible",
+    "errorEmail": "Email/Mot de passe sera bientôt disponible",
+    "errorGuest": "Erreur lors du démarrage du mode invité",
+    "errorGoogle": "Erreur lors de la connexion avec Google"
+  },
+  "auth": {
+    "title": "Connectez-vous ou inscrivez-vous",
+    "subtitle": "Gérez vos finances en toute sécurité",
+    "tabs": {
+      "login": "Se connecter",
+      "register": "S'inscrire"
+    },
+    "fields": {
+      "emailOrPhone": "E-mail ou téléphone",
+      "password": "Mot de passe",
+      "name": "Nom"
+    },
+    "placeholders": {
+      "emailOrPhone": "exemple@email.com ou +33...",
+      "password": "Votre mot de passe",
+      "passwordCreate": "Créez un mot de passe",
+      "name": "Votre nom"
+    },
+    "buttons": {
+      "login": "Se connecter",
+      "register": "Créer un compte"
+    },
+    "forgotPassword": {
+      "link": "J'ai oublié mon mot de passe",
+      "title": "Récupérer le mot de passe",
+      "message": "Entrez votre e-mail et nous vous enverrons un code pour réinitialiser votre mot de passe",
+      "send": "Envoyer le code",
+      "cancel": "Annuler"
+    },
+    "divider": "ou continuez avec",
+    "google": "Continuer avec Google",
+    "backToGuest": "Retour et utiliser en tant qu'invité",
+    "otpInfo": "Un code de vérification sera envoyé pour sécuriser votre compte.",
+    "passwordStrength": {
+      "weak": "Faible",
+      "medium": "Moyen",
+      "strong": "Fort"
+    },
+    "terms": {
+      "prefix": "En créant un compte, vous acceptez nos ",
+      "termsLink": "Conditions d'utilisation",
+      "and": "et",
+      "privacyLink": "Politique de confidentialité"
+    },
+    "verify": {
+      "title": "Vérification",
+      "subtitle": "Entrez le code",
+      "message": "Nous avons envoyé un code à 6 chiffres à",
+      "resend": "Renvoyer le code",
+      "resendIn": "Renvoyer dans {{seconds}}s",
+      "button": "Vérifier",
+      "error": "Le code entré est incorrect. Réessayez."
+    },
+    "trustDevice": {
+      "title": "Faire confiance à cet appareil ?",
+      "message": "Nous ne vous demanderons pas le code de vérification sur cet appareil pendant 90 jours.",
+      "trust": "Oui, faire confiance à cet appareil",
+      "skip": "Non, merci",
+      "note": "Ne faites confiance qu'aux appareils personnels et sécurisés."
+    },
+    "errors": {
+      "invalidEmail": "L'e-mail n'est pas valide",
+      "invalidPhone": "Le numéro de téléphone n'est pas valide",
+      "invalidCredentials": "Identifiants incorrects. Vérifiez votre e-mail et mot de passe.",
+      "userExists": "Un compte existe déjà avec cet e-mail ou téléphone",
+      "otpInvalid": "Le code de vérification est incorrect",
+      "otpExpired": "Le code a expiré. Demandez-en un nouveau.",
+      "networkError": "Erreur de connexion. Vérifiez votre internet.",
+      "generic": "Une erreur s'est produite. Réessayez."
+    },
+    "resetPassword": {
+      "title": "Nouveau mot de passe",
+      "message": "Entrez votre nouveau mot de passe. Il doit comporter au moins 8 caractères",
+      "confirmPassword": "Confirmer le mot de passe",
+      "passwordsDontMatch": "Les mots de passe ne correspondent pas",
+      "button": "Mettre à jour le mot de passe",
+      "success": "Mot de passe mis à jour !",
+      "redirecting": "Redirection...",
+      "invalidLink": "Lien invalide ou expiré",
+      "requestNew": "Demandez un nouveau lien de récupération depuis la connexion",
+      "backToLogin": "Retour à la connexion"
+    }
+  },
+  "pushOnboarding": {
+    "title": "Notifications",
+    "description": "Restez informe de vos finances avec des alertes intelligentes et personnalisees.",
+    "feature1Title": "Transactions programmees",
+    "feature1Desc": "Recevez une alerte avant l'echeance de vos paiements recurrents.",
+    "feature2Title": "Rappel quotidien",
+    "feature2Desc": "Un rappel a 21h pour enregistrer vos depenses du jour.",
+    "feature3Title": "Resume quotidien",
+    "feature3Desc": "Recevez un resume de vos transactions a la fin de la journee.",
+    "enable": "Activer les notifications",
+    "enabling": "Activation...",
+    "skip": "Pas maintenant",
+    "skipNote": "Vous pouvez les activer plus tard depuis Profil > Notifications."
+  }
+}

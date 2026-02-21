@@ -1,0 +1,62 @@
+{
+  "viewAllTransactions": "View all transactions",
+  "viewFullHistory": "View full history",
+  "search": "Search...",
+  "filter": "Filter by",
+  "balanceCard": {
+    "title": "Available Balance",
+    "available": "Available",
+    "income": "Income",
+    "expenses": "Expenses"
+  },
+  "addActionSheet": {
+    "title": "New Record",
+    "close": "Close",
+    "quickEntry": "Quick Entry (AI)",
+    "dictate": "Dictate",
+    "photo": "Photo",
+    "text": "Text",
+    "manual": "Manual",
+    "manualIncome": "Manual Income",
+    "manualExpense": "Manual Expense",
+    "addIncome": "Add Income",
+    "incomeHint": "Salary, sales, etc.",
+    "addExpense": "Add Expense",
+    "expenseHint": "Purchases, services, etc."
+  },
+  "filters": {
+    "all": "All",
+    "allTypes": "All",
+    "expenses": "Expenses",
+    "income": "Income",
+    "pending": "Pending",
+    "recurring": "Recurring"
+  },
+  "dailyBudget": {
+    "remaining": "{{count}} days left this month",
+    "remaining_one": "{{count}} day left this month",
+    "couldSpend": "You could spend {{amount}} / day"
+  },
+  "hideSmartBanner": {
+    "title": "Hide banner",
+    "message": "How do you want to hide this banner?",
+    "neverShow": "Never show again",
+    "hideOnce": "Just this once",
+    "cancel": "Cancel"
+  },
+  "export": {
+    "title": "Export transactions",
+    "info": "All transactions for the current month will be exported in CSV format",
+    "total": "Total transactions:",
+    "noTransactions": "No transactions to export this month"
+  },
+  "viewFilter": {
+    "scheduled": "Projection({{count}})"
+  },
+  "pushBanner": {
+    "title": "Notifications",
+    "description": "Get alerts when you're approaching your budget limit",
+    "enable": "Enable now",
+    "enabling": "Enabling..."
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "title": "Notificaciones",
+  "unavailable": {
+    "title": "No disponible",
+    "description": "Las notificaciones push solo están disponibles en la app nativa para iOS y Android."
+  },
+  "permissionRequest": {
+    "title": "Activa las notificaciones",
+    "description": "Recibe recordatorios para registrar tus gastos, alertas de presupuesto y resumen diario de tus finanzas.",
+    "button": "Activar notificaciones",
+    "buttonLoading": "Activando...",
+    "permissionDenied": "Si negaste el permiso, puedes habilitarlo desde la configuración de tu dispositivo."
+  },
+  "notifications": {
+    "scheduledTransactions": {
+      "title": "Transacciones programadas",
+      "description": "Aviso 1 día antes de cada transacción pendiente"
+    },
+    "dailyReminder": {
+      "title": "Recordatorio diario",
+      "description": "Solo si no has registrado gastos hoy",
+      "timeLabel": "Hora del recordatorio:"
+    },
+    "dailySummary": {
+      "title": "Resumen diario",
+      "description": "Resumen de tus movimientos del día",
+      "timeLabel": "Hora del resumen:"
+    },
+    "quietHours": {
+      "title": "Horas de silencio",
+      "description": "No recibir notificaciones en este horario",
+      "startLabel": "Desde:",
+      "endLabel": "Hasta:"
+    }
+  },
+  "saving": "Guardando...",
+  "info": "Las notificaciones se envían según la zona horaria de tu dispositivo.",
+  "disableAll": {
+    "button": "Desactivar todas las notificaciones",
+    "confirmTitle": "¿Desactivar notificaciones?",
+    "confirmMessage": "Se eliminarán todos tus ajustes y deberás configurarlos de nuevo si decides reactivarlas.",
+    "cancel": "Cancelar",
+    "confirm": "Desactivar",
+    "disabling": "Desactivando..."
+  }
+}

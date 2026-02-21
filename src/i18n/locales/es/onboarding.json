@@ -1,0 +1,292 @@
+{
+  "welcome": {
+    "screen1": {
+      "title1": "Bienvenido a",
+      "title2": "BaselineApp",
+      "subtitle": "La forma más inteligente de gestionar tus finanzas personales",
+      "feature1Title": "Funciona sin conexión",
+      "feature1Desc": "Tus datos están en tu dispositivo, siempre disponibles",
+      "feature2Title": "Privacidad total",
+      "feature2Desc": "Tú decides si sincronizar o mantener todo local",
+      "feature3Title": "Control financiero",
+      "feature3Desc": "Presupuestos, análisis y automatización en un solo lugar",
+      "start": "Empezar"
+    },
+    "screen2": {
+      "badge": "Registro en segundos",
+      "title": "Comienza en\nmenos de 1 minuto",
+      "subtitle": "Sin formularios complicados. Solo lo esencial para proteger tu información.",
+      "feature1Title": "Cifrado de extremo a extremo",
+      "feature1Desc": "Tus datos están protegidos siempre",
+      "feature2Title": "Sin spam ni publicidad",
+      "feature2Desc": "Solo notificaciones importantes",
+      "continue": "Continuar"
+    },
+    "screen3": {
+      "title": "Presupuestos sin\nestrés ni complicaciones",
+      "subtitle": "Organiza tus gastos por categorías y mantén el control total",
+      "categoryFood": "Alimentación",
+      "categoryShop": "Compras",
+      "categoryHome": "Hogar",
+      "alertNote": "Alertas inteligentes te avisan cuando te acercas al límite de tu presupuesto",
+      "continue": "Continuar"
+    },
+    "screen4": {
+      "title": "Descubre tus\npatrones de gasto",
+      "subtitle": "Visualiza tendencias y toma mejores decisiones financieras",
+      "chartTitle": "Últimos 7 días",
+      "dayMon": "L",
+      "dayTue": "M",
+      "dayWed": "M",
+      "dayThu": "J",
+      "dayFri": "V",
+      "daySat": "S",
+      "daySun": "D",
+      "avgDaily": "Promedio diario",
+      "weeklyTotal": "Total semanal",
+      "insight1Title": "Días pico de gasto",
+      "insight1Desc": "Identificamos que gastas más los viernes y sábados",
+      "insight2Title": "Categoría principal",
+      "insight2Desc": "El 40% de tus gastos son en alimentación",
+      "continue": "Continuar"
+    },
+    "screen5": {
+      "badge": "Ahorra tiempo",
+      "title": "Automatiza tus\ngastos recurrentes",
+      "subtitle": "Configura una vez, olvídate del resto. Perfecto para suscripciones y pagos fijos.",
+      "netflix": "Netflix",
+      "rent": "Arriendo",
+      "credit": "Tarjeta de crédito",
+      "every1st": "Cada 1 de mes",
+      "every5th": "Cada 5 de mes",
+      "every15th": "Cada 15 de mes",
+      "active": "Activo",
+      "reminderNote": "Recordatorios automáticos: Te avisamos antes de cada pago para que siempre estés al tanto",
+      "continue": "Continuar"
+    },
+    "screen6": {
+      "title": "Entiende a dónde\nva tu dinero",
+      "subtitle": "Insights claros sobre tus finanzas para tomar mejores decisiones",
+      "distributionTitle": "Distribución de gastos",
+      "total": "Total",
+      "catFood": "Alimentación",
+      "catHome": "Hogar",
+      "catTransport": "Transporte",
+      "catOthers": "Otros",
+      "avgDaily": "Promedio diario",
+      "topCategory": "Categoría top",
+      "topCategoryFood": "Comida",
+      "peakDay": "Día pico",
+      "peakDayFriday": "Viernes",
+      "startNow": "Comenzar ahora"
+    },
+    "screen7": {
+      "title": "Elige tu plan",
+      "subtitle": "Comienza con 7 días gratis de todas las funciones Pro, o usa BaselineApp Lite sin límites de tiempo",
+      "proTrialBadge": "Prueba gratis",
+      "proTrialTitle": "Prueba Pro gratis por 7 días",
+      "proTrialDescription": "Acceso completo a todas las funciones premium. Cancela cuando quieras.",
+      "proAdFreeNote": "Experiencia 100% libre de anuncios",
+      "liteBadge": "Gratis siempre",
+      "liteTitle": "Continuar con Lite",
+      "liteDescription": "Todas las funciones esenciales para gestionar tus finanzas. Siempre gratis con anuncios.",
+      "liteAdsNote": "Incluye anuncios no intrusivos para mantener el servicio gratuito",
+      "features": {
+        "unlimited": "Categorías y presupuestos ilimitados",
+        "cloudSync": "Sincronización en la nube",
+        "stats": "Estadísticas detalladas",
+        "notifications": "Notificaciones push inteligentes"
+      },
+      "liteFeatures": {
+        "basicTracking": "Seguimiento básico ilimitado",
+        "budgets": "Hasta 2 presupuestos activos",
+        "categories": "Hasta 5 categorías personalizadas"
+      },
+      "disclaimer": "Prueba sin compromiso. Cancela antes de que termine y no se te cobrará nada."
+    }
+  },
+  "language": {
+    "title": "Elige tu idioma",
+    "description": "Selecciona el idioma en el que prefieres usar BaselineApp. Podrás cambiarlo después desde tu perfil.",
+    "continue": "Continuar",
+    "skip": "Omitir configuración"
+  },
+  "theme": {
+    "title": "Elige tu tema",
+    "description": "Personaliza la apariencia de BaselineApp según tu preferencia.",
+    "continue": "Continuar",
+    "skip": "Omitir configuración",
+    "note": "El tema se aplicará cuando se implemente el modo oscuro",
+    "light": {
+      "title": "Claro",
+      "description": "Interfaz luminosa ideal para el día"
+    },
+    "dark": {
+      "title": "Oscuro",
+      "description": "Reduce la fatiga visual en ambientes con poca luz"
+    },
+    "system": {
+      "title": "Automático",
+      "description": "Se adapta a la configuración de tu dispositivo"
+    }
+  },
+  "currency": {
+    "title": "Elige tu moneda",
+    "description": "Selecciona la moneda principal para tus registros financieros.",
+    "search": "Buscar moneda...",
+    "recommended": "Recomendada para ti",
+    "noResults": "No se encontró ninguna moneda",
+    "continue": "Continuar",
+    "skip": "Omitir configuración",
+    "note": "Por ahora solo se usa como referencia visual. Multi-moneda estará disponible próximamente."
+  },
+  "categories": {
+    "title": "Categorías por defecto",
+    "description": "Selecciona las categorías que quieres usar. Puedes deseleccionar las que no necesites.",
+    "expenses": "Gastos",
+    "income": "Ingresos",
+    "continue": "Continuar",
+    "note": "Nota: Podrás crear categorías personalizadas más adelante desde la sección de Configuración."
+  },
+  "complete": {
+    "title": "¡Todo listo para\ncomenzar!",
+    "subtitle": "Ya puedes empezar a gestionar tus finanzas de forma inteligente.",
+    "configTitle": "Tu configuración",
+    "language": "Idioma",
+    "languageEs": "Español",
+    "languageEn": "English",
+    "theme": "Tema",
+    "themeLight": "Claro",
+    "themeDark": "Oscuro",
+    "themeSystem": "Automático",
+    "currency": "Moneda",
+    "categories": "Categorías",
+    "categoriesSelected": "seleccionadas",
+    "feature1": "📊 Registra tus movimientos",
+    "feature1Desc": "Agrega ingresos y gastos fácilmente",
+    "feature2": "💰 Crea presupuestos",
+    "feature2Desc": "Controla tus gastos por categorías",
+    "feature3": "📈 Analiza tus datos",
+    "feature3Desc": "Visualiza tus patrones de gasto",
+    "start": "Comenzar a usar BaselineApp",
+    "note": "Podrás modificar estas opciones desde tu perfil en cualquier momento"
+  },
+  "login": {
+    "title": "Protege tus datos",
+    "subtitle": "Tus movimientos se sincronizan de forma anónima, pero si pierdes el celular o desinstalas la app, los perderás. Inicia sesión para resguardarlos.",
+    "privacyNote": "Cifrado de extremo a extremo. Tu información financiera es privada y segura.",
+    "guestTitle": "Explorar como invitado",
+    "guestDesc": "Sin cuenta, datos solo en este dispositivo",
+    "guestContinue": "Continuar como invitado",
+    "divider": "Inicia sesión con",
+    "continueWith": "Continuar con",
+    "google": "Google",
+    "apple": "Apple",
+    "emailLink": "Usar usuario y contraseña",
+    "termsPrefix": "Al continuar, aceptas nuestros",
+    "termsService": "Términos de Servicio",
+    "termsAnd": "y",
+    "termsPrivacy": "Política de Privacidad",
+    "errorApple": "Apple Sign In estará disponible próximamente",
+    "errorEmail": "Email/Contraseña estará disponible próximamente",
+    "errorGuest": "Error al iniciar modo invitado",
+    "errorGoogle": "Error al iniciar sesión con Google"
+  },
+  "auth": {
+    "title": "Inicia sesión o regístrate",
+    "subtitle": "Gestiona tus finanzas de forma segura",
+    "tabs": {
+      "login": "Iniciar sesión",
+      "register": "Registrarse"
+    },
+    "fields": {
+      "emailOrPhone": "Correo o teléfono",
+      "password": "Contraseña",
+      "name": "Nombre"
+    },
+    "placeholders": {
+      "emailOrPhone": "ejemplo@correo.com o +57...",
+      "password": "Tu contraseña",
+      "passwordCreate": "Crea una contraseña",
+      "name": "Tu nombre"
+    },
+    "buttons": {
+      "login": "Iniciar sesión",
+      "register": "Crear cuenta"
+    },
+    "forgotPassword": {
+      "link": "Olvidé mi contraseña",
+      "title": "Recuperar contraseña",
+      "message": "Ingresa tu email y te enviaremos un código para restablecer tu contraseña",
+      "send": "Enviar código",
+      "cancel": "Cancelar"
+    },
+    "divider": "o continúa con",
+    "google": "Continuar con Google",
+    "backToGuest": "Volver y usar como invitado",
+    "otpInfo": "Se enviará un código de verificación para asegurar tu cuenta.",
+    "passwordStrength": {
+      "weak": "Débil",
+      "medium": "Moderada",
+      "strong": "Fuerte"
+    },
+    "terms": {
+      "prefix": "Al crear una cuenta, aceptas nuestros ",
+      "termsLink": "Términos de Servicio",
+      "and": "y",
+      "privacyLink": "Política de Privacidad"
+    },
+    "verify": {
+      "title": "Verificación",
+      "subtitle": "Ingresa el código",
+      "message": "Enviamos un código de 6 dígitos a",
+      "resend": "Reenviar código",
+      "resendIn": "Reenviar en {{seconds}}s",
+      "button": "Verificar",
+      "error": "El código ingresado es incorrecto. Intenta de nuevo."
+    },
+    "trustDevice": {
+      "title": "¿Confiar en este dispositivo?",
+      "message": "No te pediremos el código de verificación en este dispositivo durante 90 días.",
+      "trust": "Sí, confiar en este dispositivo",
+      "skip": "No, gracias",
+      "note": "Solo confía en dispositivos personales y seguros."
+    },
+    "errors": {
+      "invalidEmail": "El correo electrónico no es válido",
+      "invalidPhone": "El número de teléfono no es válido",
+      "invalidCredentials": "Credenciales incorrectas. Verifica tu correo y contraseña.",
+      "userExists": "Ya existe una cuenta con este correo o teléfono",
+      "otpInvalid": "El código de verificación es incorrecto",
+      "otpExpired": "El código ha expirado. Solicita uno nuevo.",
+      "networkError": "Error de conexión. Verifica tu internet.",
+      "generic": "Ha ocurrido un error. Intenta de nuevo."
+    },
+    "resetPassword": {
+      "title": "Nueva contraseña",
+      "message": "Ingresa tu nueva contraseña. Debe tener al menos 8 caracteres",
+      "confirmPassword": "Confirmar contraseña",
+      "passwordsDontMatch": "Las contraseñas no coinciden",
+      "button": "Actualizar contraseña",
+      "success": "¡Contraseña actualizada!",
+      "redirecting": "Redirigiendo...",
+      "invalidLink": "Link inválido o expirado",
+      "requestNew": "Solicita un nuevo link de recuperación desde el login",
+      "backToLogin": "Volver al login"
+    }
+  },
+  "pushOnboarding": {
+    "title": "Notificaciones",
+    "description": "Mantente al tanto de tus finanzas con alertas inteligentes personalizadas.",
+    "feature1Title": "Transacciones programadas",
+    "feature1Desc": "Recibe un aviso antes de que venzan tus pagos recurrentes.",
+    "feature2Title": "Recordatorio diario",
+    "feature2Desc": "Un recordatorio a las 9 PM para registrar tus gastos del dia.",
+    "feature3Title": "Resumen diario",
+    "feature3Desc": "Recibe un resumen de tus movimientos al final del dia.",
+    "enable": "Activar notificaciones",
+    "enabling": "Activando...",
+    "skip": "Ahora no",
+    "skipNote": "Puedes activarlas despues desde Perfil > Notificaciones."
+  }
+}

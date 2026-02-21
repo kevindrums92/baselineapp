@@ -1,0 +1,67 @@
+{
+  "title": "Debloquez BaselineApp Pro",
+  "subtitle": {
+    "generic": "Profitez d'une experience sans publicite avec des saisies IA illimitees",
+    "onboarding": "Commencez avec 7 jours gratuits sans publicite et avec IA illimitee",
+    "settings": "Personnalisez votre experience au maximum",
+    "upgrade_prompt": "Supprimez les publicites et debloquez les saisies IA illimitees",
+    "batch_entry_limit": "Debloquez les saisies IA illimitees et supprimez les publicites"
+  },
+  "benefits": {
+    "adFree": "Experience 100% sans publicite",
+    "aiBatchEntry": "Saisies IA illimitees (texte, voix, image)"
+  },
+  "plans": {
+    "monthly": "Mensuel",
+    "annual": "Annuel",
+    "lifetime": "A vie",
+    "perMonth": "/mois",
+    "perYear": "/an",
+    "oneTime": "Paiement unique"
+  },
+  "badges": {
+    "bestValue": "Meilleure Offre"
+  },
+  "savings": "Economisez {{percent}}%",
+  "equivalentMonthly": "soit ${{price}}/mois",
+  "cta": {
+    "startTrial": "Demarrer l'essai gratuit de 7 jours",
+    "subscribe": "S'abonner",
+    "restore": "Restaurer les achats"
+  },
+  "trial": {
+    "badge": "Essai gratuit",
+    "daysRemaining_one": "{{count}} jour d'essai restant",
+    "daysRemaining_other": "{{count}} jours d'essai restants",
+    "expired": "Votre essai a expire"
+  },
+  "gate": {
+    "locked": "Fonction Pro",
+    "unlock": "Debloquer"
+  },
+  "promoCode": {
+    "title": "Code Promotionnel",
+    "placeholder": "Entrez votre code",
+    "redeem": "Utiliser",
+    "redeeming": "Activation...",
+    "success": "Code utilise avec succes. Vous etes maintenant Pro!",
+    "link": "J'ai un code promotionnel",
+    "error": {
+      "invalid": "Code non valide",
+      "expired": "Ce code a expire",
+      "used": "Ce code a deja ete utilise",
+      "alreadyRedeemed": "Vous avez deja utilise ce code",
+      "alreadyPro": "Vous avez deja un abonnement Pro a vie",
+      "rateLimit": "Trop de tentatives. Veuillez patienter",
+      "noSession": "Vous devez vous connecter pour utiliser un code",
+      "generic": "Echec de l'activation. Veuillez reessayer"
+    }
+  },
+  "legal": {
+    "text": "En continuant, vous acceptez nos",
+    "terms": "Conditions d'utilisation",
+    "and": "et",
+    "privacy": "Politique de confidentialite",
+    "autoRenew": "Le paiement sera debite de votre compte Apple ID lors de la confirmation de l'achat. L'abonnement se renouvelle automatiquement sauf s'il est annule avant la fin de la periode en cours. Vous pouvez gerer et annuler vos abonnements dans les reglages de votre compte App Store."
+  }
+}

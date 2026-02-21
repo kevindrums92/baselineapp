@@ -1,0 +1,60 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+.env
+.env.local
+.env.*.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# coverage
+/coverage/
+test_output.txt
+
+/docs/roadmap/references/*
+
+# Firebase and APNs credentials (sensitive)
+ios/App/App/GoogleService-Info.plist
+android/app/google-services.json
+docs/push-notifications/*.json
+docs/push-notifications/*.p8
+docs/push-notifications/*.p12
+docs/push-notifications/*.cer
+docs/push-notifications/*.certSigningRequest
+docs/push-notifications/prod/
+docs/push-notifications/important.txt
+docs/push-notifications/GoogleService-Info.plist
+
+docs/inapppurchases/*.p8
+docs/testData/*.json
+docs/sql-queries.md
+important
+supabase/.temp/cli-latest
+
+*storybook.log
+storybook-static

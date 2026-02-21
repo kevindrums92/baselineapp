@@ -1,0 +1,62 @@
+{
+  "viewAllTransactions": "Ver todas las transacciones",
+  "viewFullHistory": "Ver historial completo",
+  "search": "Buscar...",
+  "filter": "Filtrar por",
+  "balanceCard": {
+    "title": "Balance Disponible",
+    "available": "Disponible",
+    "income": "Ingresos",
+    "expenses": "Gastos"
+  },
+  "addActionSheet": {
+    "title": "Nuevo registro",
+    "close": "Cerrar",
+    "quickEntry": "Registro Rápido (IA)",
+    "dictate": "Dictar",
+    "photo": "Foto",
+    "text": "Texto",
+    "manual": "Manual",
+    "manualIncome": "Ingreso Manual",
+    "manualExpense": "Gasto Manual",
+    "addIncome": "Agregar Ingreso",
+    "incomeHint": "Salario, ventas, etc.",
+    "addExpense": "Agregar Gasto",
+    "expenseHint": "Compras, servicios, etc."
+  },
+  "filters": {
+    "all": "Todos",
+    "allTypes": "Todos",
+    "expenses": "Gastos",
+    "income": "Ingresos",
+    "pending": "Pendientes",
+    "recurring": "Recurrentes"
+  },
+  "dailyBudget": {
+    "remaining": "Al mes le quedan {{count}} días",
+    "remaining_one": "Al mes le queda {{count}} día",
+    "couldSpend": "Podrías gastar {{amount}} / día"
+  },
+  "hideSmartBanner": {
+    "title": "Ocultar banner",
+    "message": "¿Cómo quieres ocultar este banner?",
+    "neverShow": "No volver a mostrar",
+    "hideOnce": "Solo por esta vez",
+    "cancel": "Cancelar"
+  },
+  "export": {
+    "title": "Exportar transacciones",
+    "info": "Se exportarán todas las transacciones del mes actual en formato CSV",
+    "total": "Total de transacciones:",
+    "noTransactions": "No hay transacciones para exportar en este mes"
+  },
+  "viewFilter": {
+    "scheduled": "Proyección({{count}})"
+  },
+  "pushBanner": {
+    "title": "Notificaciones",
+    "description": "Recibe alertas cuando te acerques al límite de tu presupuesto",
+    "enable": "Activar ahora",
+    "enabling": "Activando..."
+  }
+}
